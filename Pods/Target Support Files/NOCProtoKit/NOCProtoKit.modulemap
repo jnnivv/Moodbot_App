@@ -1,0 +1,6 @@
+framework module NOCProtoKit {
+  umbrella header "NOCProtoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

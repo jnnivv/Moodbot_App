@@ -1,0 +1,43 @@
+PODS:
+  - ApiAI/Core (0.7.2)
+  - ApiAI/ResponseMapping (0.7.2):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.2):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/VoiceRequest (0.7.2):
+    - ApiAI/Core
+  - HPGrowingTextView (1.1)
+  - MBProgressHUD (1.1.0)
+  - NoChat (0.3.2)
+  - NOCProtoKit (0.3.2)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - ApiAI/Core
+  - ApiAI/ResponseMapping
+  - ApiAI/UIKit
+  - ApiAI/VoiceRequest
+  - HPGrowingTextView
+  - MBProgressHUD
+  - NoChat (from `../../`)
+  - NOCProtoKit (from `../`)
+  - YYText
+
+EXTERNAL SOURCES:
+  NoChat:
+    :path: ../../
+  NOCProtoKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ApiAI: d4b49d3736f33ce6f3ef66dc33c0e0fccb23579e
+  HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  NoChat: aaa980b8b29c0db8c8bd8ecde22e718cc8ad1bf7
+  NOCProtoKit: 1eed77c8f171953c6632fbad8bc1d6f6ebf6b718
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 0bfeddd6f43cfedfc39dc162444b7502e0cc074a
+
+COCOAPODS: 1.3.1

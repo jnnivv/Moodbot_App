@@ -1,0 +1,2175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00576DE07824DEAF536E5D131023EE98 /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B6EE89C95D754606BA2CB518733DB3 /* YYTextRunDelegate.m */; };
+		0105AA7F4819008AC84F0702E589CF83 /* AIOriginalRequest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 206D05060C9AD201FF577869BE684875 /* AIOriginalRequest_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01EA234F3B3C2DEEE214E76503108DF3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705BC8E0855F2FBE8EA6EF5B7D59F16A /* QuartzCore.framework */; };
+		02F7E9CBA08E16116C1D3D216A1F2A05 /* beep.caf in Resources */ = {isa = PBXBuildFile; fileRef = 80F3E4194C012AFEA627E64C3AA8D44B /* beep.caf */; };
+		03309F954E175548DC114DC767272CC4 /* AIDefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DA539B31ECF6EEC92A196DF01862C3 /* AIDefaultConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03A947157152D88D81E487C547817E11 /* AIStreamBufferDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 47212FDC9FBB5F9FB1CA104251EA49F1 /* AIStreamBufferDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05387C0E3DCADFBE20E046EAEE35B197 /* YYTextUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 917251D05F79D71CC148D869F42C48E7 /* YYTextUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05570EB2E5A866C4CA5720EFA08DA075 /* ApiAI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1DEC3809D1EEE4A42E946A937437F2 /* ApiAI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094D03AF2F6C3FAD20EE0F5209CDDDF7 /* AIAudioUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3D6986B8879A818871733A233DEC66 /* AIAudioUtils.c */; };
+		095CDBEABAC8BACE346F948563EB33E5 /* AIDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = E62194C43933DDE06D38DFEA49A44461 /* AIDataService.m */; };
+		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF216296F3D72F31117EE720C8A462F /* MBProgressHUD-dummy.m */; };
+		0A0750DD90CD1CB418B57A97203CC2E6 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B690DAE26014B824718EF158CCF16F5 /* YYTextLine.m */; };
+		0C65B955768F7AC665E68B2B270BF545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */; };
+		0C84E01AB322E700A5EDDF735D7855B5 /* YYTextWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = E5124EDFD89078FD4AEED9FBB47A04C0 /* YYTextWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CAF1AB28B34A80A7891A0805DFF45D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */; };
+		0EBB86C9F3675E2BE8BC4990FE78975D /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E9097B861B836E936453E72254B35C /* YYTextInput.m */; };
+		0F960A3501EEFA01F98B58E8DCAEBADE /* AIResponseFulfillment.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CD5F108D2788A33A9E7B8E1115C5B2 /* AIResponseFulfillment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC2473E41C1DF3D456AB624418A2C9E /* AIResponseStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 71532FE446B8A1ABABE91EA477D4C792 /* AIResponseStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		102387B9F08D705DB95914651E074A2F /* NOCProtoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D09458682BFE4A631043399E224E4ED /* NOCProtoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E8CBCAD774FB97FF7705FA41A6248C /* YYTextMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 4226854B8B32DDF2579B28E0F8D0C8A5 /* YYTextMagnifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F5EBB7481DFE9E49A4B3FE2BA3C653 /* HPTextViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7098F59A7A7587BDD651C2DF81709A47 /* HPTextViewInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		122975AAA1C7F5C79465B7C8BA5F1949 /* AIResponseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = EC11DC8E4A4110717BFF6F8A5AF9F792 /* AIResponseResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */; };
+		150430DFC9731FEC7DD7193B8C6A25EF /* NOCDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 680991CF36338FFB4E7EAF8C92B8952B /* NOCDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16C0D128A01B2F0B6F36CD36D783F7D4 /* AIResponseConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9219DF641FF0BF7A4A657E6845162ED4 /* AIResponseConstants.m */; };
+		1716857BCB83578ACBB12CB70D4AC4F5 /* AISoundRecorderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C76365755643358D21AB38A1174ACE1C /* AISoundRecorderConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18BF77D5D545A73BAE8239DAF8E296D2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D397C771B532B088E43D1F680823BBC0 /* CoreFoundation.framework */; };
+		18D25BBF9DADCD5A9CEB694C9F057FD2 /* AIRequest+AIMappedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2549C3A999CA041A6BC1242DC97433C8 /* AIRequest+AIMappedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190305471F2FDC9FFA8E96A33D87AEB0 /* NOCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D0290992D81CCABA6F254285641A89 /* NOCClient.m */; };
+		198729E887EABC61E4D3C5C864A9DF31 /* AIResponseMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 37947FF9A273603954B845DC567C7150 /* AIResponseMetadata.m */; };
+		1A9E3E59C9C63FCD62762DE6CAE587EF /* YYText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B962D132D14876787CED132539FD84 /* YYText-dummy.m */; };
+		1CA4DE8189662903C002F19A0B8EE670 /* AIVoiceLevelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8623E2616D035270F89FFB67F070045F /* AIVoiceLevelView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CC55A4FD4E4D9C27BEBBD01E0DCADCC /* AIResponseStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E132B02CB161C2F848DE8753F452608 /* AIResponseStatus.m */; };
+		1E26B1D7A7874A60B46FB3C6C4C12BDC /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A5DD03F0245809051D9E7B373FED07 /* YYTextAsyncLayer.m */; };
+		1EC19293AF82A80C7EC452ADFCCCFBD5 /* AIMeterTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 05534A741F94790CF1AF3271C2C88107 /* AIMeterTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F3326FF02B7D23E2F9A501782794477 /* AIQueryRequest+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA406CC8911E41BCA6A7D559428D05F /* AIQueryRequest+Private.m */; };
+		2018E55C021880A2E462CE164B3F015E /* AIResponseFulfillment_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBA25CEFD0962C867C75BE2380A2171 /* AIResponseFulfillment_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2045171B48FB2EDB35C0AB51E549C0FC /* YYTextArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 94240C92376C96138708B75F61712680 /* YYTextArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		222C54552792C2B2F825A0762B1E1140 /* AIStreamBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D990E3EAC64EA17F9071E900065B76B4 /* AIStreamBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23C901CC3B61C72690D9014E4BBAF9EC /* AIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58341B8DBFE6FB3746245ECE875B5C43 /* AIProgressView.m */; };
+		254B1A8BAE8FF75FF30AC7AC0E9C6AD0 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C1B7376111595EDA878BF19DCE593 /* YYTextArchiver.m */; };
+		26613A5905D1616A8C5C85B69BE41523 /* AIProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ED5C38B566ECC6300946BA773960B4 /* AIProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		273FFB5F608CCD68174E19ED3498E6F9 /* AIResponseStatus_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B37E49D3ACE6CBCE7BABB9CFBAAEC62A /* AIResponseStatus_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C82204DB240494AAC305676C31D0743 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A3F934FD25FB703442A8A6F00621A07 /* YYTextRunDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5884430F8C60EDDA8280752998E6A96D /* YYTextRunDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8EE5C8EDBA70D8A181DA0673543C66 /* AIAlgorithmDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = C80A39B164DEDF5CEF8F5E2E15D56BA8 /* AIAlgorithmDetector.m */; };
+		2BE1B3BE34BA877A6B09E44D670090D8 /* AIAlgorithmDetectorTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ABEE65A2FED1244C0F4ED83003DEF2 /* AIAlgorithmDetectorTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E38EC8A6204B861EB493E97AD0DF075 /* AIRequest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D3859EBB3FBD55D1C0DBB24D759909 /* AIRequest_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30056BCD54BA7C364D4B19188DB095AE /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = F1946779FF3657874788CB2CADCA9C8B /* NSAttributedString+YYText.m */; };
+		31B6476EAB6BD8E4B039F6B60F05EE77 /* AIRecordDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = DED2D6CEE154DB0D90E9AAA9C806F2F0 /* AIRecordDetector.m */; };
+		3440C8175FE16DF61A9A226C8B237A4A /* AIRequest+AIMappedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 955598E39D464FF3C3FE876196B5CBF2 /* AIRequest+AIMappedResponse.m */; };
+		363583E645DD0B7C8DF8BB96D6026CBE /* AIAlgorithmDetectorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A3A0A8D39983A736E1989A4B1D96DC /* AIAlgorithmDetectorDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		369EBEC93818E807F790205FD9A36454 /* AIResponseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7626825BD272C848D5D9F4307481E8 /* AIResponseContext.m */; };
+		37211E075DAD322D1D6C8157B638B890 /* NSParagraphStyle+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA6DFCC690464B79128220B15B10A1C /* NSParagraphStyle+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374655F3E273F6F84B5893B8565078B0 /* YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE5DC98032D52739DC84E7672590A2F /* YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380F70D166EFB4BE965D86B12CF80FF1 /* YYTextDebugOption.h in Headers */ = {isa = PBXBuildFile; fileRef = A486DA9D6E2DA42651A642DC4FEFB2DF /* YYTextDebugOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38CAA746CCE360E0EEEDFB26D0AB4584 /* NOCChatContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC65E22795956EDD016E0B80E4DCE16 /* NOCChatContainerView.m */; };
+		3B892F933FDB854386A86A5C30A66689 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E309CCFE8C03C2EAA164E7AD04FD47 /* UIView+YYText.m */; };
+		3C6786D8D4AE1F7549A1B4B18525200D /* NOCChatItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CD75E9EE9F8E8E6E35EDC37F1D8907 /* NOCChatItemCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CFEB9210FE7D1EEDF6087EBC0BCE795 /* AIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDDB4C23B2DDA23038704C50F3E79E8 /* AIResponse.m */; };
+		3D4CACFD8801AA9F8C5DFDBE85B60360 /* Pods-MoodBot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A94EBDE9AC291BC1B0674E98E1E8FA33 /* Pods-MoodBot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D790C6CA977FAA0C7B752D1D9D172F3 /* NOCDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3236BED94F5A31DDB4F843F0E6F66 /* NOCDispatcher.m */; };
+		3F514BE9466E6D199DB0B950ECED73CA /* AIResponseParameterConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2823A667CD921CA91815A9BE74FEE7BC /* AIResponseParameterConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		408CC1746BE5A6DD6A7211EA77659CBD /* AIQueryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F3092582B388E7ED69E79BD1384FF499 /* AIQueryRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4239E3DFB882287323C3BAEEA86EB629 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8957CE1E2FB22CE618F729332B1105E7 /* Accelerate.framework */; };
+		4292C135F00E79FD169AD6B9B62994FA /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A07ACEF702B8EF9C0D5A2A3608AEB /* UIPasteboard+YYText.m */; };
+		4572309F7E497844E064100D1734267E /* AICubeIconImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F82F90BF6F4D1609550875BDAFE5C31 /* AICubeIconImage@2x.png */; };
+		46C602AE22A524BED203AA8F4A36FC50 /* AIQueryRequest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D2D2AC30794049267896CE13A081FC /* AIQueryRequest+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BE609A7B32AA54A8B4BC78B37E00559 /* YYTextAsyncLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE18BA07E903189B19319B06EF959B90 /* YYTextAsyncLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4CB32938CADFA6B15987407A8F8429 /* AIMicrophoneControlImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 343B0116645AF789FAE820445C350AF4 /* AIMicrophoneControlImage@3x.png */; };
+		4D66A9D9FB56D970BC2F6BDF35243BCF /* YYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EADE5A59065FD77DD891248790D5DAE /* YYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		506CC4585285243A1D4B3DBE1A65BB59 /* AICubeIconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D59273734E2451D0AF171483F5A1FA3 /* AICubeIconImage.png */; };
+		5100B7D02656826780A4AB04D9BD31BF /* AIOriginalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F310D90DAA9720961E5A0BF20B518DA5 /* AIOriginalRequest.m */; };
+		53FB9509411DD332A588177E6142F192 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA91835F4E69CAD04C9B851D7C2629F5 /* CoreText.framework */; };
+		5477A5B6239ACCA96A72955DA1823E3B /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35CF7706923DFD8C2C21611D19ACE9 /* HPTextViewInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		54C1DCDEC9EE31269022B29B87B246D8 /* AIEllipseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8297E04207E3A9C085C1EFFFE6233912 /* AIEllipseView.m */; };
+		5716177566CB501D2C4402A55BDA4627 /* AIRequestEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 31055052E7C379D71BB016F1920EDE1D /* AIRequestEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B17551FFB4508FA686C01931DD590F5 /* ApiAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0675EDCC210203A6152AE06DC0EF4564 /* ApiAI-dummy.m */; };
+		5D9589D776F75BDE6F79798EE441640B /* YYTextContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA309D681E5370F45D501FE44280829F /* YYTextContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E70F1A65FCC5CCA33982AA153791650 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5171288BED7C19A4898F12F86FA398B8 /* MobileCoreServices.framework */; };
+		5EFE3C1316AE3DF65B81286439987953 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705BC8E0855F2FBE8EA6EF5B7D59F16A /* QuartzCore.framework */; };
+		5F7D36CA62B0021899C6C157CC820F32 /* AISoundRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A87BE158AFEB3D24C0BCC4B89A06FDE8 /* AISoundRecorder.m */; };
+		5FE8D674906BFEF8FDEE123C97FBA604 /* AIResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA91C99F2F8C61ED936DE242C8501 /* AIResponseResult.m */; };
+		62C4923056E2EAC4A5FA49CE3B1A62B4 /* UIPasteboard+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EEF33A2609960A1C86E78194D143F3 /* UIPasteboard+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65074CD79DDA5033F31319B48BE485F2 /* AIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E454C1CCCC20B0E2CF3FE30E47DCBA2 /* AIResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66303AA0D609B88FDE8AC8D657B251FC /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC7326E4426CAAEC6AE966E64BE7D1E /* NSParagraphStyle+YYText.m */; };
+		665919641E0E5E6AE125141B2A8D44C4 /* NOCClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2F674F8495815D8608DE493845508E /* NOCClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		676520533F36B55D075760BB441E2B14 /* AIConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1700540DE9B4C423DCA7CA35352F7B02 /* AIConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6929DCAF3E3D4308134C0B97DC369D85 /* NOCChatCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F2FA6903374B4134D092683B8C3702 /* NOCChatCollectionView.m */; };
+		7096A9C0A7A8EE136301C1B59C97F182 /* NOCChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CCD0C9A2E283817AE397CB46BF3E3F /* NOCChatViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73253AE492A52933B9FC99AC77166F52 /* AIStreamBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D90D95C58AE14909B09C99F8EA6583 /* AIStreamBuffer.m */; };
+		7495A2A1262E693E8B98D6B66BC98128 /* HPGrowingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F2A1AFD91EE73DA22CE7513BCE813D /* HPGrowingTextView-dummy.m */; };
+		753B28C4F69D7CD277D158CF643A3454 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF01DE66B8E6CABFB0036B2A0CFA5 /* YYTextEffectWindow.m */; };
+		7935F8EC227F3EB3835DB90C04549540 /* YYTextEffectWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDBB3277E8EEB962FF6EDAC3AE632A8 /* YYTextEffectWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D20574903009F0E6F5197BAA24C5B7 /* EnergyAndZeroCross.h in Headers */ = {isa = PBXBuildFile; fileRef = 804137E7F756340F4D237A38BA1E6AA6 /* EnergyAndZeroCross.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AEA9BF52E7E4E8FACFF4C3082530521 /* NOCProtoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3879A5E875AA192D0DE41A8C441146D /* NOCProtoKit-dummy.m */; };
+		7D8AFE68CB33CF02690594D71E0D357D /* AIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 830EDBDD500EC2AB978E12003EDA13B3 /* AIRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E3960AE6A2D87E01C2F7E2EF3DE1311 /* NOCProtoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12730CE92AFAA28FFEA936460DA52284 /* NOCProtoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC1A784DEB839DF816CCCFE00A4BFF5 /* AIRequestEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B217606B50A811CC4CAC0C57058E9FCA /* AIRequestEntity.m */; };
+		7F8DF7BA004D89FCDBCAEF097A45689A /* YYTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF11C4E6EB3D3D78D265714E8B14AA1 /* YYTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8135749F637AA0FEEAB85E4A17C93DC1 /* AIVoiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B20462F34EA79E32C0150232B9E365 /* AIVoiceRequest.m */; };
+		83E59859F5163E178F88544D460EB512 /* UIView+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = CCED1A8C9D2E18ABDC32636078E92194 /* UIView+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C24D4A4891CB1946B0BA31F02A51FB /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6CA3FFD67DEE5A1F6279AB9CB742B /* YYTextMagnifier.m */; };
+		87E15B8939027760F7CAFFAE9DD1DDAD /* AIRequestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A4D6576CC3B4CFCA53D72496157FD2 /* AIRequestContext.m */; };
+		882A89BE6C83C669372699A9E459C25F /* AISoundRecorderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB369CA74E8BAE4658830561377AABF /* AISoundRecorderConstants.m */; };
+		89593A8A72E2823CB2D531004556616C /* NOCGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2855AB3C54359CCB472AA112ED1C70 /* NOCGame.m */; };
+		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDBE02C5E9C00E0D73502192F4DEFED /* MBProgressHUD.m */; };
+		8A1696822FE6FB2A954FED70D17FB61A /* AIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2AFD8A896DABFAEBBA34BDFFCF85ED /* AIRequest.m */; };
+		8A926142ECC9FE255660D0DBD6B9C892 /* AIVoiceRequestButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BA7644804A10629C5E1CDF59350B39 /* AIVoiceRequestButton.xib */; };
+		8D373E66EDCC6940EAD1A2B1C22DA25F /* NOCChatInputPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CBC93EF282FC7BF3B324ADF78D398 /* NOCChatInputPanel.m */; };
+		8FF0C9D8D2D3ECC46FA97AB9426BE038 /* NOCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D391B7CAAEDF95995B098B90CD2048 /* NOCChatViewController.m */; };
+		900E6F34ECAEFBB8E7A003665E62E7E9 /* YYTextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F5554A838AB6A1E44BD9CB079108C2 /* YYTextSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923FA9B063AE8322BD193A38FB62C7B7 /* AIVoiceLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ADDE4AD2D01819AC1A8E7B69764967 /* AIVoiceLevelView.m */; };
+		930187F1664C4DCB92DD52CE0313A745 /* AIResponseContext_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC65C6308909429ABBE5B8529F449FB /* AIResponseContext_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95C660FD9A466A2276759F416F0D878A /* AIRequestEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C830DF6511DCD22F889BB646EBF30B /* AIRequestEntry.m */; };
+		9703E82EB2C8CA1C0013FCB88FE663D3 /* AdaptiveThresold.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E5D8EA218B683E409765EDCB7F2EFF /* AdaptiveThresold.m */; };
+		9AC2F021834D4E13F9E0D1516FE3197A /* AIResponseFulfillment.m in Sources */ = {isa = PBXBuildFile; fileRef = 561293FF46F934CD9D5B089565F4657F /* AIResponseFulfillment.m */; };
+		9BB2862EC73468494A7E8BAB3CEE6DC7 /* AICubeIconImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53AF87FBE53579FB9F83751CEBD912C0 /* AICubeIconImage@3x.png */; };
+		9D6FC2882E8F09E4BB10C58C025DD085 /* AIDataService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9173DBC7EEF5001B105048616FD8C23E /* AIDataService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F50305529394B61BF6F550C22302410 /* NOCChatItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A428C4AD77A88710B75AF057275C2AD6 /* NOCChatItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A04FD7F35238DFEF3E3C913972AF4B13 /* YYTextKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 776C99D2A7BC64336B4F7544AEF914B8 /* YYTextKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A30BB0CA28EEE51F9DAE80429BC338E7 /* AIRequestEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = D034059F6B355E4563F68CD9313D2BAD /* AIRequestEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A30D77F300A87DE47D7751D14957AC7D /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B198AAA52021C7F2AEC10B329DF7BF /* YYTextDebugOption.m */; };
+		A52CA908D640F551E84D834CE5357602 /* AIResponseParameter_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F1AE23F30550F536A3C25BF3A5DA6F12 /* AIResponseParameter_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F96ED5E381DDF1BD98F4EB9B7D2C1E0 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8594FC1DCB013146EFBA1616AEE0C6E /* AIMicrophoneControlImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA047972A40DCBEC08976ABF76DEE044 /* AIMicrophoneControlImage@2x.png */; };
+		A9FA73FD6C08E131EB9F53620B62BBD0 /* AIResponseMetadata_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 189E89A204E8C6329F80AE0FDC5A9B3A /* AIResponseMetadata_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB2CDEBA7FDD70C9E4134FC19ADFC837 /* YYTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A22E64A58A6B28AE36D1AA545209A2 /* YYTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB3376A7D9F8CA8EED8CD547158F407A /* AIDatePeriodFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B43B999CCB85F61F5FB5198147399544 /* AIDatePeriodFormatter.m */; };
+		AB5C9561D61AE3FBB4ADD35AD385216F /* AIRequestContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A724D3A9BB080A2B1D09FA1C4D8047F3 /* AIRequestContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC4AB8E13BAC797F454514D2A95D7322 /* HPGrowingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEE6FA653463F9593775F79A98C60CC /* HPGrowingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8E8C329F0C62766083DE95A45523B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */; };
+		ADC1433C266E0D2972484DC9C388C1BD /* AIVoiceRequestButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9FC110A0042369F11597551463CA49 /* AIVoiceRequestButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE9D93BD893911AF88DD8AB11FC604CF /* YYTextRubyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = D34B01C32BB33A45BE50D18F2406370D /* YYTextRubyAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0320AEB2F47B72F29E6099C2323D134 /* AIResponseParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AA4C858502A2B939D01C94A9228357 /* AIResponseParameter.m */; };
+		B039E5FF1BDA7A7B6E5805CEE8871F03 /* YYText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FAD147A726DB8CA9E09FEC645C0435 /* YYText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04727B4F4D316BFCB65826D8687FAB0 /* AIDatePeriodFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D8865ACE7D659D912D4132D7B1A0BD7D /* AIDatePeriodFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B05A37D0F68410D10CA78F3EB7C32FCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */; };
+		B0CC5C28903773842BA29D4BF14A91BD /* NOCChatInputPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 533377B3C8B0A17DD231E4C1180F0D35 /* NOCChatInputPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A671C9BF679FFEAE1CAF0BD6EACA40 /* AIAudioUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D10C1E02C776E7696E0164F5509BA4 /* AIAudioUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2170F49711F9F363227C6C07BCDE3DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228660FA2901575480D16256A49546FA /* UIKit.framework */; };
+		B2BAF1FC93F0CDCA4D9D1052F0C05D72 /* NOCGame.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F9DF275ED944156B8C3EFA375E7D94 /* NOCGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B380A659641396D7371F7B8AC64291B5 /* AIRequestEntity_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F54B58129C0C7CE7353E8B427E0705 /* AIRequestEntity_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B39909A00A3E13FDBA8E037B13551A96 /* ApiAI_ApiAI_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 513DD25854EA5312EC3C2533C9ABB572 /* ApiAI_ApiAI_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4C4A77B575398D1E574762F15EDB44D /* AIEllipseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6527D7F54CCB30F586F5F47336D04147 /* AIEllipseView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B547005BFC899BD5B6C0BA266CCD1914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */; };
+		B734D6F6F5637ABE7C0F0AE86923D753 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11DDA5DAE3B1297257F577FFDD4FA0 /* YYTextKeyboardManager.m */; };
+		B8AB64D260A8ABEC9AE43CE5942E147E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */; };
+		B97E3C6960A54868798463B135DE3374 /* YYTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C0978677DA24C0C9F77C4F12E5452BF2 /* YYTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B09D92619C34518D2CCE02AF166412 /* AIVoiceRequestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5E5D5578F2E02C48EE52D04B8C3B2 /* AIVoiceRequestButton.m */; };
+		BC604B9E5E825F1E7ADB57471E122467 /* ApiAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DBC25560702D7CAB7E7CCA9AFB5EF2 /* ApiAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD67DA09CA2D8AC40D5F6D84D153F441 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A5224852757D77AE892AAE3877E1A3 /* AVFoundation.framework */; };
+		BE68A24D8A475C2B111A725821DA3E0E /* EnergyAndZeroCross.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B3C3B8C1D500A86E6C1C0C32872EC4 /* EnergyAndZeroCross.m */; };
+		BFC3AAFFCCFE94270FA4A3040449FA18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4391777111AEE051F372AE1834F8F1 /* CoreGraphics.framework */; };
+		C21F740E3620824F2473B721717C2DD6 /* NOCChatContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C201C684FF42EE356FEEAE65E8600F /* NOCChatContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C27C4F75D29D0189407CF337FF22F6F2 /* AIResponseParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = A6525873EBA556EA5A1A8EE7C3C44745 /* AIResponseParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C46305C3E7CB5DC4A0DDE382879483BF /* AIDefaultConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FCF12DBD9209A2A841E6FF5FF7788 /* AIDefaultConfiguration.m */; };
+		C4EDE68FAE69113729F10B88A689D315 /* AISessionIdentifierStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = CEEBC6447096B1DAF25702AB5F00F525 /* AISessionIdentifierStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C837FFD6D43DAB353D1A07A3C35FD8B7 /* AISoundRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = F141B42E4504F6D03436577AA0021912 /* AISoundRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC47166FE5FA54F286EF5C102F31090C /* YYTextAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B683E19D808AA727F92A28F1817E119 /* YYTextAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD7752013DBE12C966DE876DF5BFB4EA /* ApiAI.m in Sources */ = {isa = PBXBuildFile; fileRef = D71E2F1AFF05A76460ED139C9E8A2F5D /* ApiAI.m */; };
+		CD81F0749AB7C898A6DBC36F9AD5AA60 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC52B4D378F364AB0FA4A21E03F60275 /* HPGrowingTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDAD7D518F810B419CD24E693641D0ED /* AdaptiveThresold.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A2C05878B77B7188D174088D5D3827 /* AdaptiveThresold.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFF3D1478417282C56BF05B35DBD2525 /* AIDataService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FB99D5C576DFDB5093716B36637A0C /* AIDataService_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0184F61F73FCBB8D5DC10D164374246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228660FA2901575480D16256A49546FA /* UIKit.framework */; };
+		D08DD75D280D476D93334A487DEDD9B5 /* NoChat.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AF1D70575AFAEC7E6624E510849E63 /* NoChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D11CD618ECDE07089A26C38D9747C6C3 /* AIOriginalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DCE704EED997805355D1090C82BD4A /* AIOriginalRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A6D0A83E3F914C00921767AB87AFA4 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C516681414AF1468D56F658E857D3527 /* YYTextParser.m */; };
+		D1C94A21B6209D9B829A72F1DFD1C2F2 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBA6A2EF83495E78F356811F51C7A2C /* YYTextWeakProxy.m */; };
+		D1DC3F638F2A5FCC4C11CF909416B7C6 /* YYTextTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3F65951BA4F06EEBA4900CE8A96BCA /* YYTextTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24C61026EE8B93FAE15146096E1D8B4 /* NOCChatCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 088DC55C1DE35028B820B43BD3B368FB /* NOCChatCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3023B6FBB1578F9E3AADB28342E9D41 /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C412835C7418FE2179487FF212C3F45 /* YYTextTransaction.m */; };
+		D3095BA575F241C127FFFD5257507D95 /* AISoundRecorderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C4711DF4837109191A34A18BB524518F /* AISoundRecorderDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D683328A5CEE1750501B6659E871243A /* NoChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCDE0BB46B14E8DE258AB54167AA4F6 /* NoChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91FF7AF7277680AE71414AD9707DA79 /* NSAttributedString+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB06C5EB66BDD18FF0F29C90C280416 /* NSAttributedString+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9AAF346035F24FC675643E41E1E86D3 /* AITextRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58448E912A7E9CC10A489EB2240E21FD /* AITextRequest.m */; };
+		DA7003D832CBE3A573EF49BACDBB6AB8 /* AIAlgorithmDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 410EB773FBE565B5E40E397DD71FFC09 /* AIAlgorithmDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBAE52CB512D460A5936DC5AE22FE2ED /* AIResponseConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C18C54DA516BC45776D104909A699C50 /* AIResponseConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC0169ACFB04A505AF2F718AD808568 /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A52B6EEB5C7727E8EB8FE21B30C0C67 /* YYTextLayout.m */; };
+		DBDE1DA894D52707837C7692C2386FCB /* AIResponseMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 4597586B1E66CAE06D7D187393AA4129 /* AIResponseMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC82FCB174D7E6AF2097781B12EBF06E /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4E4A8FC70194F0E7E147284442642 /* YYLabel.m */; };
+		DD0CB97D06E0E44C60776F53B48A1F12 /* AIVoiceContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE7261FD22BD26E2629E2EE8B2EB4DF /* AIVoiceContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDF3C3F589408B45F7C4D394031176C2 /* AINullabilityDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B56E64DFB6906B5DF2C1355345322E /* AINullabilityDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDFA7C217F9ED4B8C3F7C9CE1C2A554F /* AIVoiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F098DB1CC4013B269CE30C545727DB21 /* AIVoiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6D61051C2B5D412E518F1CE76A5CA3 /* YYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E50E41D81449BE64F453BA764F5DE3A /* YYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E071CA7389774F0931A42D50F09D7B98 /* NOCChatItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D455D30C871B4ACB8D5FE9C745660A /* NOCChatItemCell.m */; };
+		E224B351C0C2871C06CA85F9A5ED7F9F /* AIResponseResult_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C17688C5FAB2D00874D33EB113CB671 /* AIResponseResult_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2C141D17BC3D90CE6987BDB807CA342 /* HPGrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5064E700319EF78F4F80B742E9FDB215 /* HPGrowingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E48F07189C7BE257F31A654087655640 /* AITextRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3011103A76FB7BBE959B69211AED6306 /* AITextRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6288AA41E5AA9381B7EFA7E9ACEF29C /* AIRecordDetectorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCC63C803D18F7C8F63D9A1D1378DEC /* AIRecordDetectorDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6B15DB4050500B8B6CA78EB25107974 /* AIRecordDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA554D9321D355242ACC750833A8807 /* AIRecordDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E963739F445BA56B83D5DB1E9B221E12 /* YYTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = A51A17C4F2DD3166DAA1CF73B82D69F9 /* YYTextLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B9CA59EE1414FFC224BDA8D29FEE50 /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A56400EBE46A30B0A5716A0CE0734C /* YYTextContainerView.m */; };
+		EB348E81B62B90DE764B0074A34D28F7 /* AIResponseParameterConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C383B0182993725F92114588433CD05A /* AIResponseParameterConstants.m */; };
+		EE98C305757C0E19122EF63236099D5F /* NoChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9746D0EF120A4BBD7E6CA9BC4D643DAF /* NoChat-dummy.m */; };
+		EF566AC0E1DF35DBD1AE7880084359E2 /* NOCChatCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0863C25207B170993CC260646026DEB4 /* NOCChatCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE54ECA743EE14FF9FAE46A50FEE83C /* AIResponseContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8145C29B6113D47E3CF31EB569FAFE9C /* AIResponseContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F15657E038C8648C9882B2927409BB1C /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B896E8BE54D04FCDA24A4C29889ECD1 /* YYTextAttribute.m */; };
+		F24A081D57B8FBAE229E8AAD2D01A8F8 /* NOCChatItemCellLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2F6E158E4579C545EA0A765A43FF54 /* NOCChatItemCellLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44F6E99F9847F03631B08D957D6FD90 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DBF16750E6A7E7FF21F5668F01A41 /* YYTextView.m */; };
+		F5E613DC5542A41FCAACAC98A26F8C0B /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663CB515EFD2A8583A7B334909A7C4D3 /* YYTextSelectionView.m */; };
+		F7A4E0465321BC5553EECAA170B71445 /* NOCChatCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A13D8B9118D566166BF20820D564E82E /* NOCChatCollectionViewLayout.m */; };
+		F91379D50A033A9449512AD6A5A86CB6 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CDEBE6AEE3B52DF8B79CD858258A70 /* YYTextUtilities.m */; };
+		F92E9EDA1BF8EA0E029A131C52F302FA /* AISessionIdentifierStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F9947A80427F054570F31D1DFA61A7 /* AISessionIdentifierStorage.m */; };
+		F9710AF63DB22BD987E8005D90800580 /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E38C5F9D752B1E001D52FA18F1015C /* YYTextRubyAnnotation.m */; };
+		FB100A2AE4398BDECD637FC508A10715 /* AIVoiceContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCAF1D9C7BD2C80C95BB0635743CAD /* AIVoiceContainerView.m */; };
+		FBC03C21C0EB33CF699A1572AFF32103 /* AIMeterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B7A9C002BD8065989C7A626DB8D758 /* AIMeterTable.m */; };
+		FEACD0ED034DA343984A05DC75645459 /* Pods-MoodBot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 998C74979C7FB3539054C1C368D53771 /* Pods-MoodBot-dummy.m */; };
+		FF691061920FF1D623AE8739F018B103 /* AIMicrophoneControlImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FCA9692551B970D5B40C972C03676E5 /* AIMicrophoneControlImage.png */; };
+		FFED343E518D4279F4EBAC2CC9B2D033 /* AIQueryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7448F9D29678585A0EB9DEA1F7D5B9 /* AIQueryRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9DEA7370D00C4AB08638A9F1F10834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9A09C7302670F7CD46B07B0636481A;
+			remoteInfo = ApiAI;
+		};
+		66AE82D40B05103A08F72DF8B1095CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FA54D12162DAD51D02FC58A2CD5034;
+			remoteInfo = MBProgressHUD;
+		};
+		95CAE8A77DD74BD9A649B052D81D37AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617D61FCB3A3DFF8E75036B33D8E9BA1;
+			remoteInfo = HPGrowingTextView;
+		};
+		AD3E39FD3F493ACC5BFBA12D37CED16D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3ED0211F7EECC173E919CC06059E3C;
+			remoteInfo = NOCProtoKit;
+		};
+		C01474424392C9C2EAF46C4F0FCA8FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FE122BD3CE0F1BC99699025AE3D333;
+			remoteInfo = NoChat;
+		};
+		D6870B97824652E8B5FCDF0F6BC0EC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 192115271F60B3DCE090C78C0C172E03;
+			remoteInfo = YYText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F9947A80427F054570F31D1DFA61A7 /* AISessionIdentifierStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AISessionIdentifierStorage.m; path = ApiAI/Private/AISessionIdentifierStorage.m; sourceTree = "<group>"; };
+		01CCD0C9A2E283817AE397CB46BF3E3F /* NOCChatViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatViewController.h; path = NoChat/NoChat/NOCChatViewController.h; sourceTree = "<group>"; };
+		05534A741F94790CF1AF3271C2C88107 /* AIMeterTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIMeterTable.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIMeterTable.h; sourceTree = "<group>"; };
+		0675EDCC210203A6152AE06DC0EF4564 /* ApiAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApiAI-dummy.m"; sourceTree = "<group>"; };
+		0863C25207B170993CC260646026DEB4 /* NOCChatCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatCollectionViewLayout.h; path = NoChat/NoChat/NOCChatCollectionViewLayout.h; sourceTree = "<group>"; };
+		088DC55C1DE35028B820B43BD3B368FB /* NOCChatCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatCollectionView.h; path = NoChat/NoChat/NOCChatCollectionView.h; sourceTree = "<group>"; };
+		0C17688C5FAB2D00874D33EB113CB671 /* AIResponseResult_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseResult_Private.h; path = ApiAI/Response/Private/AIResponseResult_Private.h; sourceTree = "<group>"; };
+		0CA3236BED94F5A31DDB4F843F0E6F66 /* NOCDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCDispatcher.m; path = NOCProtoKit/NOCProtoKit/NOCDispatcher.m; sourceTree = "<group>"; };
+		0D09458682BFE4A631043399E224E4ED /* NOCProtoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCProtoKit.h; path = NOCProtoKit/NOCProtoKit/NOCProtoKit.h; sourceTree = "<group>"; };
+		10683D87ECD954B025A61596D73F2543 /* Pods-MoodBot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoodBot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12730CE92AFAA28FFEA936460DA52284 /* NOCProtoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NOCProtoKit-umbrella.h"; sourceTree = "<group>"; };
+		1700540DE9B4C423DCA7CA35352F7B02 /* AIConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIConfiguration.h; path = ApiAI/Classes/AIConfiguration.h; sourceTree = "<group>"; };
+		189E89A204E8C6329F80AE0FDC5A9B3A /* AIResponseMetadata_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseMetadata_Private.h; path = ApiAI/Response/Private/AIResponseMetadata_Private.h; sourceTree = "<group>"; };
+		1B062D3223C6ED179CD773B39DAFF8F4 /* HPGrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HPGrowingTextView.framework; path = HPGrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF11C4E6EB3D3D78D265714E8B14AA1 /* YYTextParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextParser.h; path = YYText/String/YYTextParser.h; sourceTree = "<group>"; };
+		206D05060C9AD201FF577869BE684875 /* AIOriginalRequest_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIOriginalRequest_Private.h; path = ApiAI/Private/AIOriginalRequest_Private.h; sourceTree = "<group>"; };
+		228660FA2901575480D16256A49546FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		23A3A0A8D39983A736E1989A4B1D96DC /* AIAlgorithmDetectorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAlgorithmDetectorDelegate.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetectorDelegate.h; sourceTree = "<group>"; };
+		2549C3A999CA041A6BC1242DC97433C8 /* AIRequest+AIMappedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AIRequest+AIMappedResponse.h"; path = "ApiAI/Response/Classes/AIRequest+AIMappedResponse.h"; sourceTree = "<group>"; };
+		25BA7644804A10629C5E1CDF59350B39 /* AIVoiceRequestButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AIVoiceRequestButton.xib; path = ApiAI/UIKit/Classes/AIVoiceRequestButton.xib; sourceTree = "<group>"; };
+		25CDEBE6AEE3B52DF8B79CD858258A70 /* YYTextUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextUtilities.m; path = YYText/Utility/YYTextUtilities.m; sourceTree = "<group>"; };
+		2823A667CD921CA91815A9BE74FEE7BC /* AIResponseParameterConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseParameterConstants.h; path = ApiAI/Response/Private/AIResponseParameterConstants.h; sourceTree = "<group>"; };
+		28E309CCFE8C03C2EAA164E7AD04FD47 /* UIView+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YYText.m"; path = "YYText/Utility/UIView+YYText.m"; sourceTree = "<group>"; };
+		29EEF33A2609960A1C86E78194D143F3 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+YYText.h"; path = "YYText/Utility/UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		2B683E19D808AA727F92A28F1817E119 /* YYTextAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextAttribute.h; path = YYText/String/YYTextAttribute.h; sourceTree = "<group>"; };
+		2BE06D8F718BD0824B321BCA63CE3D22 /* Pods_MoodBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoodBot.framework; path = "Pods-MoodBot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCC63C803D18F7C8F63D9A1D1378DEC /* AIRecordDetectorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRecordDetectorDelegate.h; path = ApiAI/VoiceRequest/Private/RecordDetector/AIRecordDetectorDelegate.h; sourceTree = "<group>"; };
+		2E132B02CB161C2F848DE8753F452608 /* AIResponseStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseStatus.m; path = ApiAI/Response/Classes/AIResponseStatus.m; sourceTree = "<group>"; };
+		2E50E41D81449BE64F453BA764F5DE3A /* YYLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYLabel.h; path = YYText/YYLabel.h; sourceTree = "<group>"; };
+		2EC2C9957DA5A6DF45336D0148E370BA /* ApiAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApiAI.xcconfig; sourceTree = "<group>"; };
+		2F2AFD8A896DABFAEBBA34BDFFCF85ED /* AIRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequest.m; path = ApiAI/Classes/AIRequest.m; sourceTree = "<group>"; };
+		2F529897C7F27F9B01B5585233F27000 /* HPGrowingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HPGrowingTextView.xcconfig; sourceTree = "<group>"; };
+		3011103A76FB7BBE959B69211AED6306 /* AITextRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AITextRequest.h; path = ApiAI/Classes/AITextRequest.h; sourceTree = "<group>"; };
+		31055052E7C379D71BB016F1920EDE1D /* AIRequestEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestEntry.h; path = ApiAI/Classes/AIRequestEntry.h; sourceTree = "<group>"; };
+		32A6CA3FFD67DEE5A1F6279AB9CB742B /* YYTextMagnifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextMagnifier.m; path = YYText/Component/YYTextMagnifier.m; sourceTree = "<group>"; };
+		32E9097B861B836E936453E72254B35C /* YYTextInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextInput.m; path = YYText/Component/YYTextInput.m; sourceTree = "<group>"; };
+		32F2A1AFD91EE73DA22CE7513BCE813D /* HPGrowingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPGrowingTextView-dummy.m"; sourceTree = "<group>"; };
+		343B0116645AF789FAE820445C350AF4 /* AIMicrophoneControlImage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AIMicrophoneControlImage@3x.png"; path = "ApiAI/UIKit/Images/AIMicrophoneControlImage@3x.png"; sourceTree = "<group>"; };
+		34BA4A119A56048687A41D07D38C80A9 /* NoChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoChat-prefix.pch"; sourceTree = "<group>"; };
+		36E5D8EA218B683E409765EDCB7F2EFF /* AdaptiveThresold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AdaptiveThresold.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/AdaptiveThresold/AdaptiveThresold.m; sourceTree = "<group>"; };
+		37947FF9A273603954B845DC567C7150 /* AIResponseMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseMetadata.m; path = ApiAI/Response/Classes/AIResponseMetadata.m; sourceTree = "<group>"; };
+		39B962D132D14876787CED132539FD84 /* YYText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYText-dummy.m"; sourceTree = "<group>"; };
+		3A2855AB3C54359CCB472AA112ED1C70 /* NOCGame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCGame.m; path = NOCProtoKit/NOCProtoKit/NOCGame.m; sourceTree = "<group>"; };
+		3B4391777111AEE051F372AE1834F8F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3B690DAE26014B824718EF158CCF16F5 /* YYTextLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextLine.m; path = YYText/Component/YYTextLine.m; sourceTree = "<group>"; };
+		3D981F2205507354DB2A5C3CF92056AF /* Pods-MoodBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodBot.release.xcconfig"; sourceTree = "<group>"; };
+		3D98BE2FD72056E4A4911E5B920E07F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2F6E158E4579C545EA0A765A43FF54 /* NOCChatItemCellLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItemCellLayout.h; path = NoChat/NoChat/NOCChatItemCellLayout.h; sourceTree = "<group>"; };
+		3EB369CA74E8BAE4658830561377AABF /* AISoundRecorderConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AISoundRecorderConstants.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorderConstants.m; sourceTree = "<group>"; };
+		40C201C684FF42EE356FEEAE65E8600F /* NOCChatContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatContainerView.h; path = NoChat/NoChat/NOCChatContainerView.h; sourceTree = "<group>"; };
+		40DBC25560702D7CAB7E7CCA9AFB5EF2 /* ApiAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ApiAI.h; path = ApiAI/Classes/ApiAI.h; sourceTree = "<group>"; };
+		410EB773FBE565B5E40E397DD71FFC09 /* AIAlgorithmDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAlgorithmDetector.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetector.h; sourceTree = "<group>"; };
+		4226854B8B32DDF2579B28E0F8D0C8A5 /* YYTextMagnifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextMagnifier.h; path = YYText/Component/YYTextMagnifier.h; sourceTree = "<group>"; };
+		44FCAF1D9C7BD2C80C95BB0635743CAD /* AIVoiceContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceContainerView.m; path = ApiAI/UIKit/Private/AIVoiceContainerView.m; sourceTree = "<group>"; };
+		4597586B1E66CAE06D7D187393AA4129 /* AIResponseMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseMetadata.h; path = ApiAI/Response/Classes/AIResponseMetadata.h; sourceTree = "<group>"; };
+		45AA4C858502A2B939D01C94A9228357 /* AIResponseParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseParameter.m; path = ApiAI/Response/Classes/AIResponseParameter.m; sourceTree = "<group>"; };
+		47212FDC9FBB5F9FB1CA104251EA49F1 /* AIStreamBufferDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIStreamBufferDelegate.h; path = ApiAI/Private/Streamer/AIStreamBufferDelegate.h; sourceTree = "<group>"; };
+		4B9000371B4AE15689EFB7C11600A4E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA406CC8911E41BCA6A7D559428D05F /* AIQueryRequest+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AIQueryRequest+Private.m"; path = "ApiAI/Private/AIQueryRequest+Private.m"; sourceTree = "<group>"; };
+		4EB88790EE74135C64F698DC1C1E5B53 /* YYText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYText-prefix.pch"; sourceTree = "<group>"; };
+		4F35CF7706923DFD8C2C21611D19ACE9 /* HPTextViewInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HPTextViewInternal.m; path = class/HPTextViewInternal.m; sourceTree = "<group>"; };
+		4F96ED5E381DDF1BD98F4EB9B7D2C1E0 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5064E700319EF78F4F80B742E9FDB215 /* HPGrowingTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HPGrowingTextView.h; path = class/HPGrowingTextView.h; sourceTree = "<group>"; };
+		513DD25854EA5312EC3C2533C9ABB572 /* ApiAI_ApiAI_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ApiAI_ApiAI_Private.h; path = ApiAI/Private/ApiAI_ApiAI_Private.h; sourceTree = "<group>"; };
+		5171288BED7C19A4898F12F86FA398B8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		526F9E22068094BC11CCCDBB2F575833 /* YYText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYText.xcconfig; sourceTree = "<group>"; };
+		533377B3C8B0A17DD231E4C1180F0D35 /* NOCChatInputPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatInputPanel.h; path = NoChat/NoChat/NOCChatInputPanel.h; sourceTree = "<group>"; };
+		53AF87FBE53579FB9F83751CEBD912C0 /* AICubeIconImage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AICubeIconImage@3x.png"; path = "ApiAI/UIKit/Images/AICubeIconImage@3x.png"; sourceTree = "<group>"; };
+		53F5554A838AB6A1E44BD9CB079108C2 /* YYTextSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextSelectionView.h; path = YYText/Component/YYTextSelectionView.h; sourceTree = "<group>"; };
+		54BBB33A17C13D72F5A6D1DFB8F8D287 /* Pods-MoodBot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoodBot-acknowledgements.plist"; sourceTree = "<group>"; };
+		550429F6AEE3EBA062DAE4AB4703946A /* ApiAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ApiAI.framework; path = ApiAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		561293FF46F934CD9D5B089565F4657F /* AIResponseFulfillment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseFulfillment.m; path = ApiAI/Response/Classes/AIResponseFulfillment.m; sourceTree = "<group>"; };
+		58341B8DBFE6FB3746245ECE875B5C43 /* AIProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIProgressView.m; path = ApiAI/UIKit/Private/AIProgressView.m; sourceTree = "<group>"; };
+		58448E912A7E9CC10A489EB2240E21FD /* AITextRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AITextRequest.m; path = ApiAI/Classes/AITextRequest.m; sourceTree = "<group>"; };
+		5884430F8C60EDDA8280752998E6A96D /* YYTextRunDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextRunDelegate.h; path = YYText/String/YYTextRunDelegate.h; sourceTree = "<group>"; };
+		5A52B6EEB5C7727E8EB8FE21B30C0C67 /* YYTextLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextLayout.m; path = YYText/Component/YYTextLayout.m; sourceTree = "<group>"; };
+		5B30EC42BDB30EB53B36E7AF3FDEEF21 /* NoChat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NoChat.xcconfig; sourceTree = "<group>"; };
+		5C412835C7418FE2179487FF212C3F45 /* YYTextTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextTransaction.m; path = YYText/Utility/YYTextTransaction.m; sourceTree = "<group>"; };
+		5D67127B159BBE2CD9780A56D9A35487 /* NOCProtoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NOCProtoKit.modulemap; sourceTree = "<group>"; };
+		5E5A583AF408BADDC082E2A27B6DE94D /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		5EA554D9321D355242ACC750833A8807 /* AIRecordDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRecordDetector.h; path = ApiAI/VoiceRequest/Private/RecordDetector/AIRecordDetector.h; sourceTree = "<group>"; };
+		5EADE5A59065FD77DD891248790D5DAE /* YYTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextView.h; path = YYText/YYTextView.h; sourceTree = "<group>"; };
+		5F82F90BF6F4D1609550875BDAFE5C31 /* AICubeIconImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AICubeIconImage@2x.png"; path = "ApiAI/UIKit/Images/AICubeIconImage@2x.png"; sourceTree = "<group>"; };
+		61A56400EBE46A30B0A5716A0CE0734C /* YYTextContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextContainerView.m; path = YYText/Component/YYTextContainerView.m; sourceTree = "<group>"; };
+		62D10C1E02C776E7696E0164F5509BA4 /* AIAudioUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAudioUtils.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIAudioUtils.h; sourceTree = "<group>"; };
+		64F2FA6903374B4134D092683B8C3702 /* NOCChatCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatCollectionView.m; path = NoChat/NoChat/NOCChatCollectionView.m; sourceTree = "<group>"; };
+		6527D7F54CCB30F586F5F47336D04147 /* AIEllipseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIEllipseView.h; path = ApiAI/UIKit/Private/AIEllipseView.h; sourceTree = "<group>"; };
+		663CB515EFD2A8583A7B334909A7C4D3 /* YYTextSelectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextSelectionView.m; path = YYText/Component/YYTextSelectionView.m; sourceTree = "<group>"; };
+		680991CF36338FFB4E7EAF8C92B8952B /* NOCDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCDispatcher.h; path = NOCProtoKit/NOCProtoKit/NOCDispatcher.h; sourceTree = "<group>"; };
+		69ABEE65A2FED1244C0F4ED83003DEF2 /* AIAlgorithmDetectorTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAlgorithmDetectorTypes.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetectorTypes.h; sourceTree = "<group>"; };
+		6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B896E8BE54D04FCDA24A4C29889ECD1 /* YYTextAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAttribute.m; path = YYText/String/YYTextAttribute.m; sourceTree = "<group>"; };
+		6BBA25CEFD0962C867C75BE2380A2171 /* AIResponseFulfillment_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseFulfillment_Private.h; path = ApiAI/Response/Private/AIResponseFulfillment_Private.h; sourceTree = "<group>"; };
+		6C1D9D45FD95865893A6B237DE0F4EE9 /* ApiAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ApiAI.modulemap; sourceTree = "<group>"; };
+		6C6FCF12DBD9209A2A841E6FF5FF7788 /* AIDefaultConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIDefaultConfiguration.m; path = ApiAI/Classes/AIDefaultConfiguration.m; sourceTree = "<group>"; };
+		6D5CBC93EF282FC7BF3B324ADF78D398 /* NOCChatInputPanel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatInputPanel.m; path = NoChat/NoChat/NOCChatInputPanel.m; sourceTree = "<group>"; };
+		6EB06C5EB66BDD18FF0F29C90C280416 /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+YYText.h"; path = "YYText/Utility/NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		705BC8E0855F2FBE8EA6EF5B7D59F16A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7098F59A7A7587BDD651C2DF81709A47 /* HPTextViewInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HPTextViewInternal.h; path = class/HPTextViewInternal.h; sourceTree = "<group>"; };
+		71532FE446B8A1ABABE91EA477D4C792 /* AIResponseStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseStatus.h; path = ApiAI/Response/Classes/AIResponseStatus.h; sourceTree = "<group>"; };
+		71F9DF275ED944156B8C3EFA375E7D94 /* NOCGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCGame.h; path = NOCProtoKit/NOCProtoKit/NOCGame.h; sourceTree = "<group>"; };
+		74D90D95C58AE14909B09C99F8EA6583 /* AIStreamBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIStreamBuffer.m; path = ApiAI/Private/Streamer/AIStreamBuffer.m; sourceTree = "<group>"; };
+		74DCE704EED997805355D1090C82BD4A /* AIOriginalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIOriginalRequest.h; path = ApiAI/Classes/AIOriginalRequest.h; sourceTree = "<group>"; };
+		776C99D2A7BC64336B4F7544AEF914B8 /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextKeyboardManager.h; path = YYText/Component/YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		77FAD147A726DB8CA9E09FEC645C0435 /* YYText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYText-umbrella.h"; sourceTree = "<group>"; };
+		78B3C3B8C1D500A86E6C1C0C32872EC4 /* EnergyAndZeroCross.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EnergyAndZeroCross.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/EnergyAndZeroCross/EnergyAndZeroCross.m; sourceTree = "<group>"; };
+		7C82204DB240494AAC305676C31D0743 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		7D59273734E2451D0AF171483F5A1FA3 /* AICubeIconImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = AICubeIconImage.png; path = ApiAI/UIKit/Images/AICubeIconImage.png; sourceTree = "<group>"; };
+		7DC65E22795956EDD016E0B80E4DCE16 /* NOCChatContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatContainerView.m; path = NoChat/NoChat/NOCChatContainerView.m; sourceTree = "<group>"; };
+		7E454C1CCCC20B0E2CF3FE30E47DCBA2 /* AIResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponse.h; path = ApiAI/Response/Classes/AIResponse.h; sourceTree = "<group>"; };
+		7F95CB7EF994D1D1774E4181116E1206 /* Pods-MoodBot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoodBot-frameworks.sh"; sourceTree = "<group>"; };
+		804137E7F756340F4D237A38BA1E6AA6 /* EnergyAndZeroCross.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnergyAndZeroCross.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/EnergyAndZeroCross/EnergyAndZeroCross.h; sourceTree = "<group>"; };
+		80F3E4194C012AFEA627E64C3AA8D44B /* beep.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = beep.caf; path = ApiAI/VoiceRequest/Resources/beep.caf; sourceTree = "<group>"; };
+		8110934D4B47D9FC1A9E9853433C1D8F /* YYText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YYText.modulemap; sourceTree = "<group>"; };
+		8145C29B6113D47E3CF31EB569FAFE9C /* AIResponseContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseContext.h; path = ApiAI/Response/Classes/AIResponseContext.h; sourceTree = "<group>"; };
+		8297E04207E3A9C085C1EFFFE6233912 /* AIEllipseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIEllipseView.m; path = ApiAI/UIKit/Private/AIEllipseView.m; sourceTree = "<group>"; };
+		82D0290992D81CCABA6F254285641A89 /* NOCClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCClient.m; path = NOCProtoKit/NOCProtoKit/NOCClient.m; sourceTree = "<group>"; };
+		82D3859EBB3FBD55D1C0DBB24D759909 /* AIRequest_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequest_Private.h; path = ApiAI/Private/AIRequest_Private.h; sourceTree = "<group>"; };
+		830EDBDD500EC2AB978E12003EDA13B3 /* AIRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequest.h; path = ApiAI/Classes/AIRequest.h; sourceTree = "<group>"; };
+		830F9323868756774010545CA7641B43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E4E4A8FC70194F0E7E147284442642 /* YYLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYLabel.m; path = YYText/YYLabel.m; sourceTree = "<group>"; };
+		85F54B58129C0C7CE7353E8B427E0705 /* AIRequestEntity_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestEntity_Private.h; path = ApiAI/Private/AIRequestEntity_Private.h; sourceTree = "<group>"; };
+		8623E2616D035270F89FFB67F070045F /* AIVoiceLevelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceLevelView.h; path = ApiAI/UIKit/Private/AIVoiceLevelView.h; sourceTree = "<group>"; };
+		88B888EBC6196F111B5CA8C17BBA3D62 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8957CE1E2FB22CE618F729332B1105E7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		8A352DAD5B15749C2099A31355A067EA /* ApiAI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiAI-prefix.pch"; sourceTree = "<group>"; };
+		8AE7261FD22BD26E2629E2EE8B2EB4DF /* AIVoiceContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceContainerView.h; path = ApiAI/UIKit/Private/AIVoiceContainerView.h; sourceTree = "<group>"; };
+		8B7448F9D29678585A0EB9DEA1F7D5B9 /* AIQueryRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIQueryRequest.m; path = ApiAI/Classes/AIQueryRequest.m; sourceTree = "<group>"; };
+		8C3F65951BA4F06EEBA4900CE8A96BCA /* YYTextTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextTransaction.h; path = YYText/Utility/YYTextTransaction.h; sourceTree = "<group>"; };
+		8DC65C6308909429ABBE5B8529F449FB /* AIResponseContext_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseContext_Private.h; path = ApiAI/Response/Private/AIResponseContext_Private.h; sourceTree = "<group>"; };
+		8E1A07ACEF702B8EF9C0D5A2A3608AEB /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPasteboard+YYText.m"; path = "YYText/Utility/UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		8FCA9692551B970D5B40C972C03676E5 /* AIMicrophoneControlImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = AIMicrophoneControlImage.png; path = ApiAI/UIKit/Images/AIMicrophoneControlImage.png; sourceTree = "<group>"; };
+		917251D05F79D71CC148D869F42C48E7 /* YYTextUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextUtilities.h; path = YYText/Utility/YYTextUtilities.h; sourceTree = "<group>"; };
+		9173DBC7EEF5001B105048616FD8C23E /* AIDataService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDataService.h; path = ApiAI/Private/Network/AIDataService.h; sourceTree = "<group>"; };
+		9219DF641FF0BF7A4A657E6845162ED4 /* AIResponseConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseConstants.m; path = ApiAI/Classes/AIResponseConstants.m; sourceTree = "<group>"; };
+		93A2C05878B77B7188D174088D5D3827 /* AdaptiveThresold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdaptiveThresold.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/AdaptiveThresold/AdaptiveThresold.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94240C92376C96138708B75F61712680 /* YYTextArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextArchiver.h; path = YYText/String/YYTextArchiver.h; sourceTree = "<group>"; };
+		955598E39D464FF3C3FE876196B5CBF2 /* AIRequest+AIMappedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AIRequest+AIMappedResponse.m"; path = "ApiAI/Response/Classes/AIRequest+AIMappedResponse.m"; sourceTree = "<group>"; };
+		95B7A9C002BD8065989C7A626DB8D758 /* AIMeterTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIMeterTable.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIMeterTable.m; sourceTree = "<group>"; };
+		96FB99D5C576DFDB5093716B36637A0C /* AIDataService_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDataService_Private.h; path = ApiAI/Private/AIDataService_Private.h; sourceTree = "<group>"; };
+		9746D0EF120A4BBD7E6CA9BC4D643DAF /* NoChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NoChat-dummy.m"; sourceTree = "<group>"; };
+		998C74979C7FB3539054C1C368D53771 /* Pods-MoodBot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodBot-dummy.m"; sourceTree = "<group>"; };
+		9CCDE0BB46B14E8DE258AB54167AA4F6 /* NoChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoChat-umbrella.h"; sourceTree = "<group>"; };
+		A0CD5F108D2788A33A9E7B8E1115C5B2 /* AIResponseFulfillment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseFulfillment.h; path = ApiAI/Response/Classes/AIResponseFulfillment.h; sourceTree = "<group>"; };
+		A13D8B9118D566166BF20820D564E82E /* NOCChatCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatCollectionViewLayout.m; path = NoChat/NoChat/NOCChatCollectionViewLayout.m; sourceTree = "<group>"; };
+		A1A4D6576CC3B4CFCA53D72496157FD2 /* AIRequestContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequestContext.m; path = ApiAI/Classes/AIRequestContext.m; sourceTree = "<group>"; };
+		A2B198AAA52021C7F2AEC10B329DF7BF /* YYTextDebugOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextDebugOption.m; path = YYText/Component/YYTextDebugOption.m; sourceTree = "<group>"; };
+		A2DBF01DE66B8E6CABFB0036B2A0CFA5 /* YYTextEffectWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextEffectWindow.m; path = YYText/Component/YYTextEffectWindow.m; sourceTree = "<group>"; };
+		A3879A5E875AA192D0DE41A8C441146D /* NOCProtoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NOCProtoKit-dummy.m"; sourceTree = "<group>"; };
+		A3D391B7CAAEDF95995B098B90CD2048 /* NOCChatViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatViewController.m; path = NoChat/NoChat/NOCChatViewController.m; sourceTree = "<group>"; };
+		A428C4AD77A88710B75AF057275C2AD6 /* NOCChatItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItem.h; path = NoChat/NoChat/NOCChatItem.h; sourceTree = "<group>"; };
+		A486DA9D6E2DA42651A642DC4FEFB2DF /* YYTextDebugOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextDebugOption.h; path = YYText/Component/YYTextDebugOption.h; sourceTree = "<group>"; };
+		A51748E00EF227F0FB65D4142D1FEB2D /* NOCProtoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NOCProtoKit.xcconfig; sourceTree = "<group>"; };
+		A51A17C4F2DD3166DAA1CF73B82D69F9 /* YYTextLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLine.h; path = YYText/Component/YYTextLine.h; sourceTree = "<group>"; };
+		A6525873EBA556EA5A1A8EE7C3C44745 /* AIResponseParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseParameter.h; path = ApiAI/Response/Classes/AIResponseParameter.h; sourceTree = "<group>"; };
+		A656859B1931FB4FFFD8AFA2C66B4756 /* NoChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NoChat.framework; path = NoChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7193DB1BE53AED3D898573BFA48293A /* Pods-MoodBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodBot.debug.xcconfig"; sourceTree = "<group>"; };
+		A724D3A9BB080A2B1D09FA1C4D8047F3 /* AIRequestContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestContext.h; path = ApiAI/Classes/AIRequestContext.h; sourceTree = "<group>"; };
+		A87BE158AFEB3D24C0BCC4B89A06FDE8 /* AISoundRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AISoundRecorder.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorder.m; sourceTree = "<group>"; };
+		A94EBDE9AC291BC1B0674E98E1E8FA33 /* Pods-MoodBot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodBot-umbrella.h"; sourceTree = "<group>"; };
+		A9A5DD03F0245809051D9E7B373FED07 /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAsyncLayer.m; path = YYText/Utility/YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		AA309D681E5370F45D501FE44280829F /* YYTextContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextContainerView.h; path = YYText/Component/YYTextContainerView.h; sourceTree = "<group>"; };
+		AD33255F964E21521C0E928ECB0A82C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEBAD454220366BF37BBB49C75F5723 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		B217606B50A811CC4CAC0C57058E9FCA /* AIRequestEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequestEntity.m; path = ApiAI/Classes/AIRequestEntity.m; sourceTree = "<group>"; };
+		B21F26C548BC6057A5BD8D91C7E2D757 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		B37E49D3ACE6CBCE7BABB9CFBAAEC62A /* AIResponseStatus_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseStatus_Private.h; path = ApiAI/Response/Private/AIResponseStatus_Private.h; sourceTree = "<group>"; };
+		B43B999CCB85F61F5FB5198147399544 /* AIDatePeriodFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIDatePeriodFormatter.m; path = ApiAI/Response/Private/Formatters/AIDatePeriodFormatter.m; sourceTree = "<group>"; };
+		B5A22E64A58A6B28AE36D1AA545209A2 /* YYTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextInput.h; path = YYText/Component/YYTextInput.h; sourceTree = "<group>"; };
+		B6993563BC011969ABC9110973AFA047 /* NoChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NoChat.modulemap; sourceTree = "<group>"; };
+		B6A5224852757D77AE892AAE3877E1A3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA91835F4E69CAD04C9B851D7C2629F5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		BB3C1B7376111595EDA878BF19DCE593 /* YYTextArchiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextArchiver.m; path = YYText/String/YYTextArchiver.m; sourceTree = "<group>"; };
+		BBBA6A2EF83495E78F356811F51C7A2C /* YYTextWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextWeakProxy.m; path = YYText/Utility/YYTextWeakProxy.m; sourceTree = "<group>"; };
+		BD11DDA5DAE3B1297257F577FFDD4FA0 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextKeyboardManager.m; path = YYText/Component/YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		BDEE6FA653463F9593775F79A98C60CC /* HPGrowingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPGrowingTextView-umbrella.h"; sourceTree = "<group>"; };
+		BEF3ABEBB9F72D47A31BD8F1610C4D8E /* Pods-MoodBot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MoodBot.modulemap"; sourceTree = "<group>"; };
+		BF59F89E97BE318C765A6DFE4177304E /* HPGrowingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPGrowingTextView-prefix.pch"; sourceTree = "<group>"; };
+		BF6EA91C99F2F8C61ED936DE242C8501 /* AIResponseResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseResult.m; path = ApiAI/Response/Classes/AIResponseResult.m; sourceTree = "<group>"; };
+		BFA6DFCC690464B79128220B15B10A1C /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+YYText.h"; path = "YYText/Utility/NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		C0978677DA24C0C9F77C4F12E5452BF2 /* YYTextLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLayout.h; path = YYText/Component/YYTextLayout.h; sourceTree = "<group>"; };
+		C11DBF16750E6A7E7FF21F5668F01A41 /* YYTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextView.m; path = YYText/YYTextView.m; sourceTree = "<group>"; };
+		C18C54DA516BC45776D104909A699C50 /* AIResponseConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseConstants.h; path = ApiAI/Classes/AIResponseConstants.h; sourceTree = "<group>"; };
+		C27DF582BFF3F51B81FFF6A7F379441B /* YYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYText.framework; path = YYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D56899DA8FCA4A6220653C7F62E7BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C383B0182993725F92114588433CD05A /* AIResponseParameterConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseParameterConstants.m; path = ApiAI/Response/Private/AIResponseParameterConstants.m; sourceTree = "<group>"; };
+		C4711DF4837109191A34A18BB524518F /* AISoundRecorderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISoundRecorderDelegate.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorderDelegate.h; sourceTree = "<group>"; };
+		C4AF1D70575AFAEC7E6624E510849E63 /* NoChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoChat.h; path = NoChat/NoChat/NoChat.h; sourceTree = "<group>"; };
+		C4B56E64DFB6906B5DF2C1355345322E /* AINullabilityDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AINullabilityDefines.h; path = ApiAI/Classes/AINullabilityDefines.h; sourceTree = "<group>"; };
+		C50A13D36D3A97EE6D429ABC6D4FC69E /* HPGrowingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HPGrowingTextView.modulemap; sourceTree = "<group>"; };
+		C516681414AF1468D56F658E857D3527 /* YYTextParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextParser.m; path = YYText/String/YYTextParser.m; sourceTree = "<group>"; };
+		C76365755643358D21AB38A1174ACE1C /* AISoundRecorderConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISoundRecorderConstants.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorderConstants.h; sourceTree = "<group>"; };
+		C80A39B164DEDF5CEF8F5E2E15D56BA8 /* AIAlgorithmDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIAlgorithmDetector.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetector.m; sourceTree = "<group>"; };
+		CA7626825BD272C848D5D9F4307481E8 /* AIResponseContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseContext.m; path = ApiAI/Response/Classes/AIResponseContext.m; sourceTree = "<group>"; };
+		CCED1A8C9D2E18ABDC32636078E92194 /* UIView+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYText.h"; path = "YYText/Utility/UIView+YYText.h"; sourceTree = "<group>"; };
+		CEE5DC98032D52739DC84E7672590A2F /* YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYText.h; path = YYText/YYText.h; sourceTree = "<group>"; };
+		CEEBC6447096B1DAF25702AB5F00F525 /* AISessionIdentifierStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISessionIdentifierStorage.h; path = ApiAI/Private/AISessionIdentifierStorage.h; sourceTree = "<group>"; };
+		CF83D13C6CEC2FC9DFFD2CEBDD5ACE2E /* NOCProtoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NOCProtoKit.framework; path = NOCProtoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D034059F6B355E4563F68CD9313D2BAD /* AIRequestEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestEntity.h; path = ApiAI/Classes/AIRequestEntity.h; sourceTree = "<group>"; };
+		D1D455D30C871B4ACB8D5FE9C745660A /* NOCChatItemCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatItemCell.m; path = NoChat/NoChat/NOCChatItemCell.m; sourceTree = "<group>"; };
+		D2DA539B31ECF6EEC92A196DF01862C3 /* AIDefaultConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDefaultConfiguration.h; path = ApiAI/Classes/AIDefaultConfiguration.h; sourceTree = "<group>"; };
+		D34B01C32BB33A45BE50D18F2406370D /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextRubyAnnotation.h; path = YYText/String/YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		D397C771B532B088E43D1F680823BBC0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3B20462F34EA79E32C0150232B9E365 /* AIVoiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceRequest.m; path = ApiAI/VoiceRequest/Classes/AIVoiceRequest.m; sourceTree = "<group>"; };
+		D4ADDE4AD2D01819AC1A8E7B69764967 /* AIVoiceLevelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceLevelView.m; path = ApiAI/UIKit/Private/AIVoiceLevelView.m; sourceTree = "<group>"; };
+		D71E2F1AFF05A76460ED139C9E8A2F5D /* ApiAI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ApiAI.m; path = ApiAI/Classes/ApiAI.m; sourceTree = "<group>"; };
+		D8865ACE7D659D912D4132D7B1A0BD7D /* AIDatePeriodFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDatePeriodFormatter.h; path = ApiAI/Response/Private/Formatters/AIDatePeriodFormatter.h; sourceTree = "<group>"; };
+		D8B6EE89C95D754606BA2CB518733DB3 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRunDelegate.m; path = YYText/String/YYTextRunDelegate.m; sourceTree = "<group>"; };
+		D990E3EAC64EA17F9071E900065B76B4 /* AIStreamBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIStreamBuffer.h; path = ApiAI/Private/Streamer/AIStreamBuffer.h; sourceTree = "<group>"; };
+		D9E38C5F9D752B1E001D52FA18F1015C /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRubyAnnotation.m; path = YYText/String/YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		DA6E297A4F4759138BF0691E7D426277 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDBB3277E8EEB962FF6EDAC3AE632A8 /* YYTextEffectWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextEffectWindow.h; path = YYText/Component/YYTextEffectWindow.h; sourceTree = "<group>"; };
+		DD1DEC3809D1EEE4A42E946A937437F2 /* ApiAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiAI-umbrella.h"; sourceTree = "<group>"; };
+		DD9FC110A0042369F11597551463CA49 /* AIVoiceRequestButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceRequestButton.h; path = ApiAI/UIKit/Classes/AIVoiceRequestButton.h; sourceTree = "<group>"; };
+		DE18BA07E903189B19319B06EF959B90 /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextAsyncLayer.h; path = YYText/Utility/YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		DE3D6986B8879A818871733A233DEC66 /* AIAudioUtils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = AIAudioUtils.c; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIAudioUtils.c; sourceTree = "<group>"; };
+		DED2D6CEE154DB0D90E9AAA9C806F2F0 /* AIRecordDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRecordDetector.m; path = ApiAI/VoiceRequest/Private/RecordDetector/AIRecordDetector.m; sourceTree = "<group>"; };
+		E5124EDFD89078FD4AEED9FBB47A04C0 /* YYTextWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextWeakProxy.h; path = YYText/Utility/YYTextWeakProxy.h; sourceTree = "<group>"; };
+		E62194C43933DDE06D38DFEA49A44461 /* AIDataService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIDataService.m; path = ApiAI/Private/Network/AIDataService.m; sourceTree = "<group>"; };
+		E7CD75E9EE9F8E8E6E35EDC37F1D8907 /* NOCChatItemCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItemCell.h; path = NoChat/NoChat/NOCChatItemCell.h; sourceTree = "<group>"; };
+		EAB5E5D5578F2E02C48EE52D04B8C3B2 /* AIVoiceRequestButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceRequestButton.m; path = ApiAI/UIKit/Classes/AIVoiceRequestButton.m; sourceTree = "<group>"; };
+		EBDDB4C23B2DDA23038704C50F3E79E8 /* AIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponse.m; path = ApiAI/Response/Classes/AIResponse.m; sourceTree = "<group>"; };
+		EC11DC8E4A4110717BFF6F8A5AF9F792 /* AIResponseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseResult.h; path = ApiAI/Response/Classes/AIResponseResult.h; sourceTree = "<group>"; };
+		ECC7326E4426CAAEC6AE966E64BE7D1E /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSParagraphStyle+YYText.m"; path = "YYText/Utility/NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		EDBC82E883C7796503D692BD00F4B33F /* NOCProtoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NOCProtoKit-prefix.pch"; sourceTree = "<group>"; };
+		EE2F674F8495815D8608DE493845508E /* NOCClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCClient.h; path = NOCProtoKit/NOCProtoKit/NOCClient.h; sourceTree = "<group>"; };
+		F098DB1CC4013B269CE30C545727DB21 /* AIVoiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceRequest.h; path = ApiAI/VoiceRequest/Classes/AIVoiceRequest.h; sourceTree = "<group>"; };
+		F0C830DF6511DCD22F889BB646EBF30B /* AIRequestEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequestEntry.m; path = ApiAI/Classes/AIRequestEntry.m; sourceTree = "<group>"; };
+		F141B42E4504F6D03436577AA0021912 /* AISoundRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISoundRecorder.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorder.h; sourceTree = "<group>"; };
+		F1946779FF3657874788CB2CADCA9C8B /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+YYText.m"; path = "YYText/Utility/NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		F1AE23F30550F536A3C25BF3A5DA6F12 /* AIResponseParameter_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseParameter_Private.h; path = ApiAI/Response/Private/AIResponseParameter_Private.h; sourceTree = "<group>"; };
+		F3092582B388E7ED69E79BD1384FF499 /* AIQueryRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIQueryRequest.h; path = ApiAI/Classes/AIQueryRequest.h; sourceTree = "<group>"; };
+		F310D90DAA9720961E5A0BF20B518DA5 /* AIOriginalRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIOriginalRequest.m; path = ApiAI/Classes/AIOriginalRequest.m; sourceTree = "<group>"; };
+		F3ED5C38B566ECC6300946BA773960B4 /* AIProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIProgressView.h; path = ApiAI/UIKit/Private/AIProgressView.h; sourceTree = "<group>"; };
+		F5550E3768AB0BDDBF44B90315611101 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D2D2AC30794049267896CE13A081FC /* AIQueryRequest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AIQueryRequest+Private.h"; path = "ApiAI/Private/AIQueryRequest+Private.h"; sourceTree = "<group>"; };
+		FA047972A40DCBEC08976ABF76DEE044 /* AIMicrophoneControlImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AIMicrophoneControlImage@2x.png"; path = "ApiAI/UIKit/Images/AIMicrophoneControlImage@2x.png"; sourceTree = "<group>"; };
+		FC52B4D378F364AB0FA4A21E03F60275 /* HPGrowingTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HPGrowingTextView.m; path = class/HPGrowingTextView.m; sourceTree = "<group>"; };
+		FDDBE02C5E9C00E0D73502192F4DEFED /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FEAA9F8F3F55280FC10D968A491334C8 /* Pods-MoodBot-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoodBot-resources.sh"; sourceTree = "<group>"; };
+		FFF216296F3D72F31117EE720C8A462F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F406034E0CC19B575A80667F5949CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAF1AB28B34A80A7891A0805DFF45D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA5C2B08164F7B0B5F6EEB990160549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05A37D0F68410D10CA78F3EB7C32FCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57774E30FD88AE26F9037E1360E947B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC3AAFFCCFE94270FA4A3040449FA18 /* CoreGraphics.framework in Frameworks */,
+				14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */,
+				5EFE3C1316AE3DF65B81286439987953 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6D3A5B1E6C70E4D0F12B1F9BC96A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4239E3DFB882287323C3BAEEA86EB629 /* Accelerate.framework in Frameworks */,
+				18BF77D5D545A73BAE8239DAF8E296D2 /* CoreFoundation.framework in Frameworks */,
+				53FB9509411DD332A588177E6142F192 /* CoreText.framework in Frameworks */,
+				AC8E8C329F0C62766083DE95A45523B2 /* Foundation.framework in Frameworks */,
+				5E70F1A65FCC5CCA33982AA153791650 /* MobileCoreServices.framework in Frameworks */,
+				01EA234F3B3C2DEEE214E76503108DF3 /* QuartzCore.framework in Frameworks */,
+				B2170F49711F9F363227C6C07BCDE3DD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2DA6A30B9305F10F6005A08CA3F200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B547005BFC899BD5B6C0BA266CCD1914 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B122A0C5F963FFF8D92D4C2188756E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD67DA09CA2D8AC40D5F6D84D153F441 /* AVFoundation.framework in Frameworks */,
+				0C65B955768F7AC665E68B2B270BF545 /* Foundation.framework in Frameworks */,
+				D0184F61F73FCBB8D5DC10D164374246 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98D2FCD25B0C223ADA83F3E969EAA24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AB64D260A8ABEC9AE43CE5942E147E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D72D2EB72D55A5248DEB72A4C8B2270 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8957CE1E2FB22CE618F729332B1105E7 /* Accelerate.framework */,
+				B6A5224852757D77AE892AAE3877E1A3 /* AVFoundation.framework */,
+				D397C771B532B088E43D1F680823BBC0 /* CoreFoundation.framework */,
+				3B4391777111AEE051F372AE1834F8F1 /* CoreGraphics.framework */,
+				BA91835F4E69CAD04C9B851D7C2629F5 /* CoreText.framework */,
+				6A16B9D444AD7E5E25E174106B92DDAD /* Foundation.framework */,
+				5171288BED7C19A4898F12F86FA398B8 /* MobileCoreServices.framework */,
+				705BC8E0855F2FBE8EA6EF5B7D59F16A /* QuartzCore.framework */,
+				228660FA2901575480D16256A49546FA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1554914D1B170B5B72A083BBF60547C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C50A13D36D3A97EE6D429ABC6D4FC69E /* HPGrowingTextView.modulemap */,
+				2F529897C7F27F9B01B5585233F27000 /* HPGrowingTextView.xcconfig */,
+				32F2A1AFD91EE73DA22CE7513BCE813D /* HPGrowingTextView-dummy.m */,
+				BF59F89E97BE318C765A6DFE4177304E /* HPGrowingTextView-prefix.pch */,
+				BDEE6FA653463F9593775F79A98C60CC /* HPGrowingTextView-umbrella.h */,
+				830F9323868756774010545CA7641B43 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HPGrowingTextView";
+			sourceTree = "<group>";
+		};
+		163253B5D2C05D271D24D6E069FA18AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C1D9D45FD95865893A6B237DE0F4EE9 /* ApiAI.modulemap */,
+				2EC2C9957DA5A6DF45336D0148E370BA /* ApiAI.xcconfig */,
+				0675EDCC210203A6152AE06DC0EF4564 /* ApiAI-dummy.m */,
+				8A352DAD5B15749C2099A31355A067EA /* ApiAI-prefix.pch */,
+				DD1DEC3809D1EEE4A42E946A937437F2 /* ApiAI-umbrella.h */,
+				DA6E297A4F4759138BF0691E7D426277 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ApiAI";
+			sourceTree = "<group>";
+		};
+		22833A314978850FD0F1FAE6630D626B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3B3433C9C79391643867259065500C1 /* Pods-MoodBot */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D72D2EB72D55A5248DEB72A4C8B2270 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EFD6042EB7F54DDF7694D6938960056 /* NoChat */ = {
+			isa = PBXGroup;
+			children = (
+				088DC55C1DE35028B820B43BD3B368FB /* NOCChatCollectionView.h */,
+				64F2FA6903374B4134D092683B8C3702 /* NOCChatCollectionView.m */,
+				0863C25207B170993CC260646026DEB4 /* NOCChatCollectionViewLayout.h */,
+				A13D8B9118D566166BF20820D564E82E /* NOCChatCollectionViewLayout.m */,
+				40C201C684FF42EE356FEEAE65E8600F /* NOCChatContainerView.h */,
+				7DC65E22795956EDD016E0B80E4DCE16 /* NOCChatContainerView.m */,
+				533377B3C8B0A17DD231E4C1180F0D35 /* NOCChatInputPanel.h */,
+				6D5CBC93EF282FC7BF3B324ADF78D398 /* NOCChatInputPanel.m */,
+				A428C4AD77A88710B75AF057275C2AD6 /* NOCChatItem.h */,
+				E7CD75E9EE9F8E8E6E35EDC37F1D8907 /* NOCChatItemCell.h */,
+				D1D455D30C871B4ACB8D5FE9C745660A /* NOCChatItemCell.m */,
+				3E2F6E158E4579C545EA0A765A43FF54 /* NOCChatItemCellLayout.h */,
+				01CCD0C9A2E283817AE397CB46BF3E3F /* NOCChatViewController.h */,
+				A3D391B7CAAEDF95995B098B90CD2048 /* NOCChatViewController.m */,
+				C4AF1D70575AFAEC7E6624E510849E63 /* NoChat.h */,
+				ADE51B3B54A644C18C49DD0E3304A9B4 /* Support Files */,
+			);
+			name = NoChat;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		443B772A32481B3F06D82A7D9F5A84BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550429F6AEE3EBA062DAE4AB4703946A /* ApiAI.framework */,
+				1B062D3223C6ED179CD773B39DAFF8F4 /* HPGrowingTextView.framework */,
+				88B888EBC6196F111B5CA8C17BBA3D62 /* MBProgressHUD.framework */,
+				A656859B1931FB4FFFD8AFA2C66B4756 /* NoChat.framework */,
+				CF83D13C6CEC2FC9DFFD2CEBDD5ACE2E /* NOCProtoKit.framework */,
+				2BE06D8F718BD0824B321BCA63CE3D22 /* Pods_MoodBot.framework */,
+				C27DF582BFF3F51B81FFF6A7F379441B /* YYText.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462E89BA8A1F4EEECAA31F255ECAF430 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D56899DA8FCA4A6220653C7F62E7BF /* Info.plist */,
+				8110934D4B47D9FC1A9E9853433C1D8F /* YYText.modulemap */,
+				526F9E22068094BC11CCCDBB2F575833 /* YYText.xcconfig */,
+				39B962D132D14876787CED132539FD84 /* YYText-dummy.m */,
+				4EB88790EE74135C64F698DC1C1E5B53 /* YYText-prefix.pch */,
+				77FAD147A726DB8CA9E09FEC645C0435 /* YYText-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYText";
+			sourceTree = "<group>";
+		};
+		5F903B5FC374EEF567353411FEA836BC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1700540DE9B4C423DCA7CA35352F7B02 /* AIConfiguration.h */,
+				9173DBC7EEF5001B105048616FD8C23E /* AIDataService.h */,
+				E62194C43933DDE06D38DFEA49A44461 /* AIDataService.m */,
+				96FB99D5C576DFDB5093716B36637A0C /* AIDataService_Private.h */,
+				D2DA539B31ECF6EEC92A196DF01862C3 /* AIDefaultConfiguration.h */,
+				6C6FCF12DBD9209A2A841E6FF5FF7788 /* AIDefaultConfiguration.m */,
+				C4B56E64DFB6906B5DF2C1355345322E /* AINullabilityDefines.h */,
+				74DCE704EED997805355D1090C82BD4A /* AIOriginalRequest.h */,
+				F310D90DAA9720961E5A0BF20B518DA5 /* AIOriginalRequest.m */,
+				206D05060C9AD201FF577869BE684875 /* AIOriginalRequest_Private.h */,
+				F3092582B388E7ED69E79BD1384FF499 /* AIQueryRequest.h */,
+				8B7448F9D29678585A0EB9DEA1F7D5B9 /* AIQueryRequest.m */,
+				F8D2D2AC30794049267896CE13A081FC /* AIQueryRequest+Private.h */,
+				4DA406CC8911E41BCA6A7D559428D05F /* AIQueryRequest+Private.m */,
+				830EDBDD500EC2AB978E12003EDA13B3 /* AIRequest.h */,
+				2F2AFD8A896DABFAEBBA34BDFFCF85ED /* AIRequest.m */,
+				82D3859EBB3FBD55D1C0DBB24D759909 /* AIRequest_Private.h */,
+				A724D3A9BB080A2B1D09FA1C4D8047F3 /* AIRequestContext.h */,
+				A1A4D6576CC3B4CFCA53D72496157FD2 /* AIRequestContext.m */,
+				D034059F6B355E4563F68CD9313D2BAD /* AIRequestEntity.h */,
+				B217606B50A811CC4CAC0C57058E9FCA /* AIRequestEntity.m */,
+				85F54B58129C0C7CE7353E8B427E0705 /* AIRequestEntity_Private.h */,
+				31055052E7C379D71BB016F1920EDE1D /* AIRequestEntry.h */,
+				F0C830DF6511DCD22F889BB646EBF30B /* AIRequestEntry.m */,
+				C18C54DA516BC45776D104909A699C50 /* AIResponseConstants.h */,
+				9219DF641FF0BF7A4A657E6845162ED4 /* AIResponseConstants.m */,
+				CEEBC6447096B1DAF25702AB5F00F525 /* AISessionIdentifierStorage.h */,
+				00F9947A80427F054570F31D1DFA61A7 /* AISessionIdentifierStorage.m */,
+				D990E3EAC64EA17F9071E900065B76B4 /* AIStreamBuffer.h */,
+				74D90D95C58AE14909B09C99F8EA6583 /* AIStreamBuffer.m */,
+				47212FDC9FBB5F9FB1CA104251EA49F1 /* AIStreamBufferDelegate.h */,
+				3011103A76FB7BBE959B69211AED6306 /* AITextRequest.h */,
+				58448E912A7E9CC10A489EB2240E21FD /* AITextRequest.m */,
+				40DBC25560702D7CAB7E7CCA9AFB5EF2 /* ApiAI.h */,
+				D71E2F1AFF05A76460ED139C9E8A2F5D /* ApiAI.m */,
+				513DD25854EA5312EC3C2533C9ABB572 /* ApiAI_ApiAI_Private.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		61B61099DC73B48ED88620CE3FBD9B87 /* NOCProtoKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F674F8495815D8608DE493845508E /* NOCClient.h */,
+				82D0290992D81CCABA6F254285641A89 /* NOCClient.m */,
+				680991CF36338FFB4E7EAF8C92B8952B /* NOCDispatcher.h */,
+				0CA3236BED94F5A31DDB4F843F0E6F66 /* NOCDispatcher.m */,
+				71F9DF275ED944156B8C3EFA375E7D94 /* NOCGame.h */,
+				3A2855AB3C54359CCB472AA112ED1C70 /* NOCGame.m */,
+				0D09458682BFE4A631043399E224E4ED /* NOCProtoKit.h */,
+				B0D1BBD06AF4B1EA2D5059E53B717D1D /* Support Files */,
+			);
+			name = NOCProtoKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		64B96F3402869228030F208CD309C103 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D59273734E2451D0AF171483F5A1FA3 /* AICubeIconImage.png */,
+				5F82F90BF6F4D1609550875BDAFE5C31 /* AICubeIconImage@2x.png */,
+				53AF87FBE53579FB9F83751CEBD912C0 /* AICubeIconImage@3x.png */,
+				8FCA9692551B970D5B40C972C03676E5 /* AIMicrophoneControlImage.png */,
+				FA047972A40DCBEC08976ABF76DEE044 /* AIMicrophoneControlImage@2x.png */,
+				343B0116645AF789FAE820445C350AF4 /* AIMicrophoneControlImage@3x.png */,
+				25BA7644804A10629C5E1CDF59350B39 /* AIVoiceRequestButton.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6986794820AFCA3CB5587DF3370F2D32 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4F96ED5E381DDF1BD98F4EB9B7D2C1E0 /* MBProgressHUD.h */,
+				FDDBE02C5E9C00E0D73502192F4DEFED /* MBProgressHUD.m */,
+				EF7F2AFE84F01AD07D0C72B34BD1DB1D /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6DF00FAFD8738989A08AEECB327A6AF3 /* HPGrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				5064E700319EF78F4F80B742E9FDB215 /* HPGrowingTextView.h */,
+				FC52B4D378F364AB0FA4A21E03F60275 /* HPGrowingTextView.m */,
+				7098F59A7A7587BDD651C2DF81709A47 /* HPTextViewInternal.h */,
+				4F35CF7706923DFD8C2C21611D19ACE9 /* HPTextViewInternal.m */,
+				1554914D1B170B5B72A083BBF60547C1 /* Support Files */,
+			);
+			name = HPGrowingTextView;
+			path = HPGrowingTextView;
+			sourceTree = "<group>";
+		};
+		790913090A6D01A3617B6603350C623E /* ApiAI */ = {
+			isa = PBXGroup;
+			children = (
+				5F903B5FC374EEF567353411FEA836BC /* Core */,
+				E94B6638605DDC4AF43B788142D49AA6 /* ResponseMapping */,
+				163253B5D2C05D271D24D6E069FA18AD /* Support Files */,
+				E5795225456DA75D1CB8E28A5E552854 /* UIKit */,
+				A5485C5E5F0528F56C110B31560073B6 /* VoiceRequest */,
+			);
+			name = ApiAI;
+			path = ApiAI;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D9EDB373FE9AA9F50CAA1D8734FC5591 /* Development Pods */,
+				24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */,
+				AE9421086D2DB96E16522F6DFD3D82AD /* Pods */,
+				443B772A32481B3F06D82A7D9F5A84BF /* Products */,
+				22833A314978850FD0F1FAE6630D626B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5485C5E5F0528F56C110B31560073B6 /* VoiceRequest */ = {
+			isa = PBXGroup;
+			children = (
+				93A2C05878B77B7188D174088D5D3827 /* AdaptiveThresold.h */,
+				36E5D8EA218B683E409765EDCB7F2EFF /* AdaptiveThresold.m */,
+				410EB773FBE565B5E40E397DD71FFC09 /* AIAlgorithmDetector.h */,
+				C80A39B164DEDF5CEF8F5E2E15D56BA8 /* AIAlgorithmDetector.m */,
+				23A3A0A8D39983A736E1989A4B1D96DC /* AIAlgorithmDetectorDelegate.h */,
+				69ABEE65A2FED1244C0F4ED83003DEF2 /* AIAlgorithmDetectorTypes.h */,
+				DE3D6986B8879A818871733A233DEC66 /* AIAudioUtils.c */,
+				62D10C1E02C776E7696E0164F5509BA4 /* AIAudioUtils.h */,
+				05534A741F94790CF1AF3271C2C88107 /* AIMeterTable.h */,
+				95B7A9C002BD8065989C7A626DB8D758 /* AIMeterTable.m */,
+				5EA554D9321D355242ACC750833A8807 /* AIRecordDetector.h */,
+				DED2D6CEE154DB0D90E9AAA9C806F2F0 /* AIRecordDetector.m */,
+				2DCC63C803D18F7C8F63D9A1D1378DEC /* AIRecordDetectorDelegate.h */,
+				F141B42E4504F6D03436577AA0021912 /* AISoundRecorder.h */,
+				A87BE158AFEB3D24C0BCC4B89A06FDE8 /* AISoundRecorder.m */,
+				C76365755643358D21AB38A1174ACE1C /* AISoundRecorderConstants.h */,
+				3EB369CA74E8BAE4658830561377AABF /* AISoundRecorderConstants.m */,
+				C4711DF4837109191A34A18BB524518F /* AISoundRecorderDelegate.h */,
+				F098DB1CC4013B269CE30C545727DB21 /* AIVoiceRequest.h */,
+				D3B20462F34EA79E32C0150232B9E365 /* AIVoiceRequest.m */,
+				804137E7F756340F4D237A38BA1E6AA6 /* EnergyAndZeroCross.h */,
+				78B3C3B8C1D500A86E6C1C0C32872EC4 /* EnergyAndZeroCross.m */,
+				E4DB1508AE11D65E422A070889156FAB /* Resources */,
+			);
+			name = VoiceRequest;
+			sourceTree = "<group>";
+		};
+		ADE51B3B54A644C18C49DD0E3304A9B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD33255F964E21521C0E928ECB0A82C8 /* Info.plist */,
+				B6993563BC011969ABC9110973AFA047 /* NoChat.modulemap */,
+				5B30EC42BDB30EB53B36E7AF3FDEEF21 /* NoChat.xcconfig */,
+				9746D0EF120A4BBD7E6CA9BC4D643DAF /* NoChat-dummy.m */,
+				34BA4A119A56048687A41D07D38C80A9 /* NoChat-prefix.pch */,
+				9CCDE0BB46B14E8DE258AB54167AA4F6 /* NoChat-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "App/MoodBot/Pods/Target Support Files/NoChat";
+			sourceTree = "<group>";
+		};
+		AE9421086D2DB96E16522F6DFD3D82AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790913090A6D01A3617B6603350C623E /* ApiAI */,
+				6DF00FAFD8738989A08AEECB327A6AF3 /* HPGrowingTextView */,
+				6986794820AFCA3CB5587DF3370F2D32 /* MBProgressHUD */,
+				F634A72E5028CCEA2AA507C701D94D6F /* YYText */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0D1BBD06AF4B1EA2D5059E53B717D1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D98BE2FD72056E4A4911E5B920E07F5 /* Info.plist */,
+				5D67127B159BBE2CD9780A56D9A35487 /* NOCProtoKit.modulemap */,
+				A51748E00EF227F0FB65D4142D1FEB2D /* NOCProtoKit.xcconfig */,
+				A3879A5E875AA192D0DE41A8C441146D /* NOCProtoKit-dummy.m */,
+				EDBC82E883C7796503D692BD00F4B33F /* NOCProtoKit-prefix.pch */,
+				12730CE92AFAA28FFEA936460DA52284 /* NOCProtoKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "MoodBot/Pods/Target Support Files/NOCProtoKit";
+			sourceTree = "<group>";
+		};
+		D3B3433C9C79391643867259065500C1 /* Pods-MoodBot */ = {
+			isa = PBXGroup;
+			children = (
+				F5550E3768AB0BDDBF44B90315611101 /* Info.plist */,
+				BEF3ABEBB9F72D47A31BD8F1610C4D8E /* Pods-MoodBot.modulemap */,
+				10683D87ECD954B025A61596D73F2543 /* Pods-MoodBot-acknowledgements.markdown */,
+				54BBB33A17C13D72F5A6D1DFB8F8D287 /* Pods-MoodBot-acknowledgements.plist */,
+				998C74979C7FB3539054C1C368D53771 /* Pods-MoodBot-dummy.m */,
+				7F95CB7EF994D1D1774E4181116E1206 /* Pods-MoodBot-frameworks.sh */,
+				FEAA9F8F3F55280FC10D968A491334C8 /* Pods-MoodBot-resources.sh */,
+				A94EBDE9AC291BC1B0674E98E1E8FA33 /* Pods-MoodBot-umbrella.h */,
+				A7193DB1BE53AED3D898573BFA48293A /* Pods-MoodBot.debug.xcconfig */,
+				3D981F2205507354DB2A5C3CF92056AF /* Pods-MoodBot.release.xcconfig */,
+			);
+			name = "Pods-MoodBot";
+			path = "Target Support Files/Pods-MoodBot";
+			sourceTree = "<group>";
+		};
+		D9EDB373FE9AA9F50CAA1D8734FC5591 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EFD6042EB7F54DDF7694D6938960056 /* NoChat */,
+				61B61099DC73B48ED88620CE3FBD9B87 /* NOCProtoKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E4DB1508AE11D65E422A070889156FAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80F3E4194C012AFEA627E64C3AA8D44B /* beep.caf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E5795225456DA75D1CB8E28A5E552854 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6527D7F54CCB30F586F5F47336D04147 /* AIEllipseView.h */,
+				8297E04207E3A9C085C1EFFFE6233912 /* AIEllipseView.m */,
+				F3ED5C38B566ECC6300946BA773960B4 /* AIProgressView.h */,
+				58341B8DBFE6FB3746245ECE875B5C43 /* AIProgressView.m */,
+				8AE7261FD22BD26E2629E2EE8B2EB4DF /* AIVoiceContainerView.h */,
+				44FCAF1D9C7BD2C80C95BB0635743CAD /* AIVoiceContainerView.m */,
+				8623E2616D035270F89FFB67F070045F /* AIVoiceLevelView.h */,
+				D4ADDE4AD2D01819AC1A8E7B69764967 /* AIVoiceLevelView.m */,
+				DD9FC110A0042369F11597551463CA49 /* AIVoiceRequestButton.h */,
+				EAB5E5D5578F2E02C48EE52D04B8C3B2 /* AIVoiceRequestButton.m */,
+				64B96F3402869228030F208CD309C103 /* Resources */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		E94B6638605DDC4AF43B788142D49AA6 /* ResponseMapping */ = {
+			isa = PBXGroup;
+			children = (
+				D8865ACE7D659D912D4132D7B1A0BD7D /* AIDatePeriodFormatter.h */,
+				B43B999CCB85F61F5FB5198147399544 /* AIDatePeriodFormatter.m */,
+				2549C3A999CA041A6BC1242DC97433C8 /* AIRequest+AIMappedResponse.h */,
+				955598E39D464FF3C3FE876196B5CBF2 /* AIRequest+AIMappedResponse.m */,
+				7E454C1CCCC20B0E2CF3FE30E47DCBA2 /* AIResponse.h */,
+				EBDDB4C23B2DDA23038704C50F3E79E8 /* AIResponse.m */,
+				8145C29B6113D47E3CF31EB569FAFE9C /* AIResponseContext.h */,
+				CA7626825BD272C848D5D9F4307481E8 /* AIResponseContext.m */,
+				8DC65C6308909429ABBE5B8529F449FB /* AIResponseContext_Private.h */,
+				A0CD5F108D2788A33A9E7B8E1115C5B2 /* AIResponseFulfillment.h */,
+				561293FF46F934CD9D5B089565F4657F /* AIResponseFulfillment.m */,
+				6BBA25CEFD0962C867C75BE2380A2171 /* AIResponseFulfillment_Private.h */,
+				4597586B1E66CAE06D7D187393AA4129 /* AIResponseMetadata.h */,
+				37947FF9A273603954B845DC567C7150 /* AIResponseMetadata.m */,
+				189E89A204E8C6329F80AE0FDC5A9B3A /* AIResponseMetadata_Private.h */,
+				A6525873EBA556EA5A1A8EE7C3C44745 /* AIResponseParameter.h */,
+				45AA4C858502A2B939D01C94A9228357 /* AIResponseParameter.m */,
+				F1AE23F30550F536A3C25BF3A5DA6F12 /* AIResponseParameter_Private.h */,
+				2823A667CD921CA91815A9BE74FEE7BC /* AIResponseParameterConstants.h */,
+				C383B0182993725F92114588433CD05A /* AIResponseParameterConstants.m */,
+				EC11DC8E4A4110717BFF6F8A5AF9F792 /* AIResponseResult.h */,
+				BF6EA91C99F2F8C61ED936DE242C8501 /* AIResponseResult.m */,
+				0C17688C5FAB2D00874D33EB113CB671 /* AIResponseResult_Private.h */,
+				71532FE446B8A1ABABE91EA477D4C792 /* AIResponseStatus.h */,
+				2E132B02CB161C2F848DE8753F452608 /* AIResponseStatus.m */,
+				B37E49D3ACE6CBCE7BABB9CFBAAEC62A /* AIResponseStatus_Private.h */,
+			);
+			name = ResponseMapping;
+			sourceTree = "<group>";
+		};
+		EF7F2AFE84F01AD07D0C72B34BD1DB1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B9000371B4AE15689EFB7C11600A4E7 /* Info.plist */,
+				B21F26C548BC6057A5BD8D91C7E2D757 /* MBProgressHUD.modulemap */,
+				AEEBAD454220366BF37BBB49C75F5723 /* MBProgressHUD.xcconfig */,
+				FFF216296F3D72F31117EE720C8A462F /* MBProgressHUD-dummy.m */,
+				5E5A583AF408BADDC082E2A27B6DE94D /* MBProgressHUD-prefix.pch */,
+				7C82204DB240494AAC305676C31D0743 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		F634A72E5028CCEA2AA507C701D94D6F /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				6EB06C5EB66BDD18FF0F29C90C280416 /* NSAttributedString+YYText.h */,
+				F1946779FF3657874788CB2CADCA9C8B /* NSAttributedString+YYText.m */,
+				BFA6DFCC690464B79128220B15B10A1C /* NSParagraphStyle+YYText.h */,
+				ECC7326E4426CAAEC6AE966E64BE7D1E /* NSParagraphStyle+YYText.m */,
+				29EEF33A2609960A1C86E78194D143F3 /* UIPasteboard+YYText.h */,
+				8E1A07ACEF702B8EF9C0D5A2A3608AEB /* UIPasteboard+YYText.m */,
+				CCED1A8C9D2E18ABDC32636078E92194 /* UIView+YYText.h */,
+				28E309CCFE8C03C2EAA164E7AD04FD47 /* UIView+YYText.m */,
+				2E50E41D81449BE64F453BA764F5DE3A /* YYLabel.h */,
+				84E4E4A8FC70194F0E7E147284442642 /* YYLabel.m */,
+				CEE5DC98032D52739DC84E7672590A2F /* YYText.h */,
+				94240C92376C96138708B75F61712680 /* YYTextArchiver.h */,
+				BB3C1B7376111595EDA878BF19DCE593 /* YYTextArchiver.m */,
+				DE18BA07E903189B19319B06EF959B90 /* YYTextAsyncLayer.h */,
+				A9A5DD03F0245809051D9E7B373FED07 /* YYTextAsyncLayer.m */,
+				2B683E19D808AA727F92A28F1817E119 /* YYTextAttribute.h */,
+				6B896E8BE54D04FCDA24A4C29889ECD1 /* YYTextAttribute.m */,
+				AA309D681E5370F45D501FE44280829F /* YYTextContainerView.h */,
+				61A56400EBE46A30B0A5716A0CE0734C /* YYTextContainerView.m */,
+				A486DA9D6E2DA42651A642DC4FEFB2DF /* YYTextDebugOption.h */,
+				A2B198AAA52021C7F2AEC10B329DF7BF /* YYTextDebugOption.m */,
+				DCDBB3277E8EEB962FF6EDAC3AE632A8 /* YYTextEffectWindow.h */,
+				A2DBF01DE66B8E6CABFB0036B2A0CFA5 /* YYTextEffectWindow.m */,
+				B5A22E64A58A6B28AE36D1AA545209A2 /* YYTextInput.h */,
+				32E9097B861B836E936453E72254B35C /* YYTextInput.m */,
+				776C99D2A7BC64336B4F7544AEF914B8 /* YYTextKeyboardManager.h */,
+				BD11DDA5DAE3B1297257F577FFDD4FA0 /* YYTextKeyboardManager.m */,
+				C0978677DA24C0C9F77C4F12E5452BF2 /* YYTextLayout.h */,
+				5A52B6EEB5C7727E8EB8FE21B30C0C67 /* YYTextLayout.m */,
+				A51A17C4F2DD3166DAA1CF73B82D69F9 /* YYTextLine.h */,
+				3B690DAE26014B824718EF158CCF16F5 /* YYTextLine.m */,
+				4226854B8B32DDF2579B28E0F8D0C8A5 /* YYTextMagnifier.h */,
+				32A6CA3FFD67DEE5A1F6279AB9CB742B /* YYTextMagnifier.m */,
+				1CF11C4E6EB3D3D78D265714E8B14AA1 /* YYTextParser.h */,
+				C516681414AF1468D56F658E857D3527 /* YYTextParser.m */,
+				D34B01C32BB33A45BE50D18F2406370D /* YYTextRubyAnnotation.h */,
+				D9E38C5F9D752B1E001D52FA18F1015C /* YYTextRubyAnnotation.m */,
+				5884430F8C60EDDA8280752998E6A96D /* YYTextRunDelegate.h */,
+				D8B6EE89C95D754606BA2CB518733DB3 /* YYTextRunDelegate.m */,
+				53F5554A838AB6A1E44BD9CB079108C2 /* YYTextSelectionView.h */,
+				663CB515EFD2A8583A7B334909A7C4D3 /* YYTextSelectionView.m */,
+				8C3F65951BA4F06EEBA4900CE8A96BCA /* YYTextTransaction.h */,
+				5C412835C7418FE2179487FF212C3F45 /* YYTextTransaction.m */,
+				917251D05F79D71CC148D869F42C48E7 /* YYTextUtilities.h */,
+				25CDEBE6AEE3B52DF8B79CD858258A70 /* YYTextUtilities.m */,
+				5EADE5A59065FD77DD891248790D5DAE /* YYTextView.h */,
+				C11DBF16750E6A7E7FF21F5668F01A41 /* YYTextView.m */,
+				E5124EDFD89078FD4AEED9FBB47A04C0 /* YYTextWeakProxy.h */,
+				BBBA6A2EF83495E78F356811F51C7A2C /* YYTextWeakProxy.m */,
+				462E89BA8A1F4EEECAA31F255ECAF430 /* Support Files */,
+			);
+			name = YYText;
+			path = YYText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		197B7877D5D346F405BDD059EF96DBDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */,
+				A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FA072E14FC32A92FB263B0D9600B75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91FF7AF7277680AE71414AD9707DA79 /* NSAttributedString+YYText.h in Headers */,
+				37211E075DAD322D1D6C8157B638B890 /* NSParagraphStyle+YYText.h in Headers */,
+				62C4923056E2EAC4A5FA49CE3B1A62B4 /* UIPasteboard+YYText.h in Headers */,
+				83E59859F5163E178F88544D460EB512 /* UIView+YYText.h in Headers */,
+				DE6D61051C2B5D412E518F1CE76A5CA3 /* YYLabel.h in Headers */,
+				B039E5FF1BDA7A7B6E5805CEE8871F03 /* YYText-umbrella.h in Headers */,
+				374655F3E273F6F84B5893B8565078B0 /* YYText.h in Headers */,
+				2045171B48FB2EDB35C0AB51E549C0FC /* YYTextArchiver.h in Headers */,
+				4BE609A7B32AA54A8B4BC78B37E00559 /* YYTextAsyncLayer.h in Headers */,
+				CC47166FE5FA54F286EF5C102F31090C /* YYTextAttribute.h in Headers */,
+				5D9589D776F75BDE6F79798EE441640B /* YYTextContainerView.h in Headers */,
+				380F70D166EFB4BE965D86B12CF80FF1 /* YYTextDebugOption.h in Headers */,
+				7935F8EC227F3EB3835DB90C04549540 /* YYTextEffectWindow.h in Headers */,
+				AB2CDEBA7FDD70C9E4134FC19ADFC837 /* YYTextInput.h in Headers */,
+				A04FD7F35238DFEF3E3C913972AF4B13 /* YYTextKeyboardManager.h in Headers */,
+				B97E3C6960A54868798463B135DE3374 /* YYTextLayout.h in Headers */,
+				E963739F445BA56B83D5DB1E9B221E12 /* YYTextLine.h in Headers */,
+				10E8CBCAD774FB97FF7705FA41A6248C /* YYTextMagnifier.h in Headers */,
+				7F8DF7BA004D89FCDBCAEF097A45689A /* YYTextParser.h in Headers */,
+				AE9D93BD893911AF88DD8AB11FC604CF /* YYTextRubyAnnotation.h in Headers */,
+				2A3F934FD25FB703442A8A6F00621A07 /* YYTextRunDelegate.h in Headers */,
+				900E6F34ECAEFBB8E7A003665E62E7E9 /* YYTextSelectionView.h in Headers */,
+				D1DC3F638F2A5FCC4C11CF909416B7C6 /* YYTextTransaction.h in Headers */,
+				05387C0E3DCADFBE20E046EAEE35B197 /* YYTextUtilities.h in Headers */,
+				4D66A9D9FB56D970BC2F6BDF35243BCF /* YYTextView.h in Headers */,
+				0C84E01AB322E700A5EDDF735D7855B5 /* YYTextWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E764CC3948A7CF298AAB2BF891B3C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665919641E0E5E6AE125141B2A8D44C4 /* NOCClient.h in Headers */,
+				150430DFC9731FEC7DD7193B8C6A25EF /* NOCDispatcher.h in Headers */,
+				B2BAF1FC93F0CDCA4D9D1052F0C05D72 /* NOCGame.h in Headers */,
+				7E3960AE6A2D87E01C2F7E2EF3DE1311 /* NOCProtoKit-umbrella.h in Headers */,
+				102387B9F08D705DB95914651E074A2F /* NOCProtoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748D02FF370B54CFFC3A599990663880 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24C61026EE8B93FAE15146096E1D8B4 /* NOCChatCollectionView.h in Headers */,
+				EF566AC0E1DF35DBD1AE7880084359E2 /* NOCChatCollectionViewLayout.h in Headers */,
+				C21F740E3620824F2473B721717C2DD6 /* NOCChatContainerView.h in Headers */,
+				B0CC5C28903773842BA29D4BF14A91BD /* NOCChatInputPanel.h in Headers */,
+				9F50305529394B61BF6F550C22302410 /* NOCChatItem.h in Headers */,
+				3C6786D8D4AE1F7549A1B4B18525200D /* NOCChatItemCell.h in Headers */,
+				F24A081D57B8FBAE229E8AAD2D01A8F8 /* NOCChatItemCellLayout.h in Headers */,
+				7096A9C0A7A8EE136301C1B59C97F182 /* NOCChatViewController.h in Headers */,
+				D683328A5CEE1750501B6659E871243A /* NoChat-umbrella.h in Headers */,
+				D08DD75D280D476D93334A487DEDD9B5 /* NoChat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930EB1E38EF67514B72B63B2D5A2EB14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4CACFD8801AA9F8C5DFDBE85B60360 /* Pods-MoodBot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1960954B89D4FAD777590F1A33FD670 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAD7D518F810B419CD24E693641D0ED /* AdaptiveThresold.h in Headers */,
+				DA7003D832CBE3A573EF49BACDBB6AB8 /* AIAlgorithmDetector.h in Headers */,
+				363583E645DD0B7C8DF8BB96D6026CBE /* AIAlgorithmDetectorDelegate.h in Headers */,
+				2BE1B3BE34BA877A6B09E44D670090D8 /* AIAlgorithmDetectorTypes.h in Headers */,
+				B1A671C9BF679FFEAE1CAF0BD6EACA40 /* AIAudioUtils.h in Headers */,
+				676520533F36B55D075760BB441E2B14 /* AIConfiguration.h in Headers */,
+				9D6FC2882E8F09E4BB10C58C025DD085 /* AIDataService.h in Headers */,
+				CFF3D1478417282C56BF05B35DBD2525 /* AIDataService_Private.h in Headers */,
+				B04727B4F4D316BFCB65826D8687FAB0 /* AIDatePeriodFormatter.h in Headers */,
+				03309F954E175548DC114DC767272CC4 /* AIDefaultConfiguration.h in Headers */,
+				B4C4A77B575398D1E574762F15EDB44D /* AIEllipseView.h in Headers */,
+				1EC19293AF82A80C7EC452ADFCCCFBD5 /* AIMeterTable.h in Headers */,
+				DDF3C3F589408B45F7C4D394031176C2 /* AINullabilityDefines.h in Headers */,
+				D11CD618ECDE07089A26C38D9747C6C3 /* AIOriginalRequest.h in Headers */,
+				0105AA7F4819008AC84F0702E589CF83 /* AIOriginalRequest_Private.h in Headers */,
+				26613A5905D1616A8C5C85B69BE41523 /* AIProgressView.h in Headers */,
+				46C602AE22A524BED203AA8F4A36FC50 /* AIQueryRequest+Private.h in Headers */,
+				408CC1746BE5A6DD6A7211EA77659CBD /* AIQueryRequest.h in Headers */,
+				E6B15DB4050500B8B6CA78EB25107974 /* AIRecordDetector.h in Headers */,
+				E6288AA41E5AA9381B7EFA7E9ACEF29C /* AIRecordDetectorDelegate.h in Headers */,
+				18D25BBF9DADCD5A9CEB694C9F057FD2 /* AIRequest+AIMappedResponse.h in Headers */,
+				7D8AFE68CB33CF02690594D71E0D357D /* AIRequest.h in Headers */,
+				2E38EC8A6204B861EB493E97AD0DF075 /* AIRequest_Private.h in Headers */,
+				AB5C9561D61AE3FBB4ADD35AD385216F /* AIRequestContext.h in Headers */,
+				A30BB0CA28EEE51F9DAE80429BC338E7 /* AIRequestEntity.h in Headers */,
+				B380A659641396D7371F7B8AC64291B5 /* AIRequestEntity_Private.h in Headers */,
+				5716177566CB501D2C4402A55BDA4627 /* AIRequestEntry.h in Headers */,
+				65074CD79DDA5033F31319B48BE485F2 /* AIResponse.h in Headers */,
+				DBAE52CB512D460A5936DC5AE22FE2ED /* AIResponseConstants.h in Headers */,
+				EFE54ECA743EE14FF9FAE46A50FEE83C /* AIResponseContext.h in Headers */,
+				930187F1664C4DCB92DD52CE0313A745 /* AIResponseContext_Private.h in Headers */,
+				0F960A3501EEFA01F98B58E8DCAEBADE /* AIResponseFulfillment.h in Headers */,
+				2018E55C021880A2E462CE164B3F015E /* AIResponseFulfillment_Private.h in Headers */,
+				DBDE1DA894D52707837C7692C2386FCB /* AIResponseMetadata.h in Headers */,
+				A9FA73FD6C08E131EB9F53620B62BBD0 /* AIResponseMetadata_Private.h in Headers */,
+				C27C4F75D29D0189407CF337FF22F6F2 /* AIResponseParameter.h in Headers */,
+				A52CA908D640F551E84D834CE5357602 /* AIResponseParameter_Private.h in Headers */,
+				3F514BE9466E6D199DB0B950ECED73CA /* AIResponseParameterConstants.h in Headers */,
+				122975AAA1C7F5C79465B7C8BA5F1949 /* AIResponseResult.h in Headers */,
+				E224B351C0C2871C06CA85F9A5ED7F9F /* AIResponseResult_Private.h in Headers */,
+				0FC2473E41C1DF3D456AB624418A2C9E /* AIResponseStatus.h in Headers */,
+				273FFB5F608CCD68174E19ED3498E6F9 /* AIResponseStatus_Private.h in Headers */,
+				C4EDE68FAE69113729F10B88A689D315 /* AISessionIdentifierStorage.h in Headers */,
+				C837FFD6D43DAB353D1A07A3C35FD8B7 /* AISoundRecorder.h in Headers */,
+				1716857BCB83578ACBB12CB70D4AC4F5 /* AISoundRecorderConstants.h in Headers */,
+				D3095BA575F241C127FFFD5257507D95 /* AISoundRecorderDelegate.h in Headers */,
+				222C54552792C2B2F825A0762B1E1140 /* AIStreamBuffer.h in Headers */,
+				03A947157152D88D81E487C547817E11 /* AIStreamBufferDelegate.h in Headers */,
+				E48F07189C7BE257F31A654087655640 /* AITextRequest.h in Headers */,
+				DD0CB97D06E0E44C60776F53B48A1F12 /* AIVoiceContainerView.h in Headers */,
+				1CA4DE8189662903C002F19A0B8EE670 /* AIVoiceLevelView.h in Headers */,
+				DDFA7C217F9ED4B8C3F7C9CE1C2A554F /* AIVoiceRequest.h in Headers */,
+				ADC1433C266E0D2972484DC9C388C1BD /* AIVoiceRequestButton.h in Headers */,
+				05570EB2E5A866C4CA5720EFA08DA075 /* ApiAI-umbrella.h in Headers */,
+				BC604B9E5E825F1E7ADB57471E122467 /* ApiAI.h in Headers */,
+				B39909A00A3E13FDBA8E037B13551A96 /* ApiAI_ApiAI_Private.h in Headers */,
+				79D20574903009F0E6F5197BAA24C5B7 /* EnergyAndZeroCross.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7CF9906E8B8107DDF8677E43FF2990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AB8E13BAC797F454514D2A95D7322 /* HPGrowingTextView-umbrella.h in Headers */,
+				E2C141D17BC3D90CE6987BDB807CA342 /* HPGrowingTextView.h in Headers */,
+				11F5EBB7481DFE9E49A4B3FE2BA3C653 /* HPTextViewInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		192115271F60B3DCE090C78C0C172E03 /* YYText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88F54AEBA8322D01E6A896F53E35C55 /* Build configuration list for PBXNativeTarget "YYText" */;
+			buildPhases = (
+				9D4BAF37791D6758B6D5A9CA88785C0E /* Sources */,
+				BE6D3A5B1E6C70E4D0F12B1F9BC96A3F /* Frameworks */,
+				28FA072E14FC32A92FB263B0D9600B75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYText;
+			productName = YYText;
+			productReference = C27DF582BFF3F51B81FFF6A7F379441B /* YYText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				FE8E0446C3B3B52779E8DE373E495A61 /* Sources */,
+				B57774E30FD88AE26F9037E1360E947B /* Frameworks */,
+				197B7877D5D346F405BDD059EF96DBDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 88B888EBC6196F111B5CA8C17BBA3D62 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		617D61FCB3A3DFF8E75036B33D8E9BA1 /* HPGrowingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32D32D5E0836685FDCE951D6BF2D059 /* Build configuration list for PBXNativeTarget "HPGrowingTextView" */;
+			buildPhases = (
+				1B9CA000E284558E6F045E1276E06FED /* Sources */,
+				F98D2FCD25B0C223ADA83F3E969EAA24 /* Frameworks */,
+				CE7CF9906E8B8107DDF8677E43FF2990 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPGrowingTextView;
+			productName = HPGrowingTextView;
+			productReference = 1B062D3223C6ED179CD773B39DAFF8F4 /* HPGrowingTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64FE122BD3CE0F1BC99699025AE3D333 /* NoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B3766C37805A6AF7701B2B984A2998 /* Build configuration list for PBXNativeTarget "NoChat" */;
+			buildPhases = (
+				11A38844B84F3773CCFD0BD985389A4D /* Sources */,
+				04F406034E0CC19B575A80667F5949CE /* Frameworks */,
+				748D02FF370B54CFFC3A599990663880 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoChat;
+			productName = NoChat;
+			productReference = A656859B1931FB4FFFD8AFA2C66B4756 /* NoChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74F968E47A921CC0B980095AE4342D44 /* Pods-MoodBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82CB82F480B06F0D856617FCA325FBC /* Build configuration list for PBXNativeTarget "Pods-MoodBot" */;
+			buildPhases = (
+				88116BE9AAE8F8F098D948190EE5761B /* Sources */,
+				1DA5C2B08164F7B0B5F6EEB990160549 /* Frameworks */,
+				930EB1E38EF67514B72B63B2D5A2EB14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC092400E447B3360133EA8C1ADFA4D /* PBXTargetDependency */,
+				F3071BFBD971E3255E8FFF3015BA2E7C /* PBXTargetDependency */,
+				27285D3368DB6613B23FA729727EFEB7 /* PBXTargetDependency */,
+				1997F23A0C0C70C3A6F9888ED27BC0C1 /* PBXTargetDependency */,
+				AAA608DE708C7C390CD6F4D159BC4D08 /* PBXTargetDependency */,
+				3E0BCDE9D2BE97DF2CCF73A5B04A855C /* PBXTargetDependency */,
+			);
+			name = "Pods-MoodBot";
+			productName = "Pods-MoodBot";
+			productReference = 2BE06D8F718BD0824B321BCA63CE3D22 /* Pods_MoodBot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B3ED0211F7EECC173E919CC06059E3C /* NOCProtoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117CBE75FC5E669ADF6C93FFF20152EA /* Build configuration list for PBXNativeTarget "NOCProtoKit" */;
+			buildPhases = (
+				40AEF4CBDAB6372F7161FE97661FE22A /* Sources */,
+				DA2DA6A30B9305F10F6005A08CA3F200 /* Frameworks */,
+				70E764CC3948A7CF298AAB2BF891B3C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NOCProtoKit;
+			productName = NOCProtoKit;
+			productReference = CF83D13C6CEC2FC9DFFD2CEBDD5ACE2E /* NOCProtoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED9A09C7302670F7CD46B07B0636481A /* ApiAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C55FB86A58B293954704A5B95104E79 /* Build configuration list for PBXNativeTarget "ApiAI" */;
+			buildPhases = (
+				1E99C5DF2122FF013CA82CCD7FF01181 /* Sources */,
+				F3B122A0C5F963FFF8D92D4C2188756E /* Frameworks */,
+				A1960954B89D4FAD777590F1A33FD670 /* Headers */,
+				2EE8A34037974B2DD29440E8DDCCDD63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApiAI;
+			productName = ApiAI;
+			productReference = 550429F6AEE3EBA062DAE4AB4703946A /* ApiAI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 443B772A32481B3F06D82A7D9F5A84BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED9A09C7302670F7CD46B07B0636481A /* ApiAI */,
+				617D61FCB3A3DFF8E75036B33D8E9BA1 /* HPGrowingTextView */,
+				41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */,
+				64FE122BD3CE0F1BC99699025AE3D333 /* NoChat */,
+				8B3ED0211F7EECC173E919CC06059E3C /* NOCProtoKit */,
+				74F968E47A921CC0B980095AE4342D44 /* Pods-MoodBot */,
+				192115271F60B3DCE090C78C0C172E03 /* YYText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE8A34037974B2DD29440E8DDCCDD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506CC4585285243A1D4B3DBE1A65BB59 /* AICubeIconImage.png in Resources */,
+				4572309F7E497844E064100D1734267E /* AICubeIconImage@2x.png in Resources */,
+				9BB2862EC73468494A7E8BAB3CEE6DC7 /* AICubeIconImage@3x.png in Resources */,
+				FF691061920FF1D623AE8739F018B103 /* AIMicrophoneControlImage.png in Resources */,
+				A8594FC1DCB013146EFBA1616AEE0C6E /* AIMicrophoneControlImage@2x.png in Resources */,
+				4D4CB32938CADFA6B15987407A8F8429 /* AIMicrophoneControlImage@3x.png in Resources */,
+				8A926142ECC9FE255660D0DBD6B9C892 /* AIVoiceRequestButton.xib in Resources */,
+				02F7E9CBA08E16116C1D3D216A1F2A05 /* beep.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A38844B84F3773CCFD0BD985389A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6929DCAF3E3D4308134C0B97DC369D85 /* NOCChatCollectionView.m in Sources */,
+				F7A4E0465321BC5553EECAA170B71445 /* NOCChatCollectionViewLayout.m in Sources */,
+				38CAA746CCE360E0EEEDFB26D0AB4584 /* NOCChatContainerView.m in Sources */,
+				8D373E66EDCC6940EAD1A2B1C22DA25F /* NOCChatInputPanel.m in Sources */,
+				E071CA7389774F0931A42D50F09D7B98 /* NOCChatItemCell.m in Sources */,
+				8FF0C9D8D2D3ECC46FA97AB9426BE038 /* NOCChatViewController.m in Sources */,
+				EE98C305757C0E19122EF63236099D5F /* NoChat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9CA000E284558E6F045E1276E06FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7495A2A1262E693E8B98D6B66BC98128 /* HPGrowingTextView-dummy.m in Sources */,
+				CD81F0749AB7C898A6DBC36F9AD5AA60 /* HPGrowingTextView.m in Sources */,
+				5477A5B6239ACCA96A72955DA1823E3B /* HPTextViewInternal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E99C5DF2122FF013CA82CCD7FF01181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9703E82EB2C8CA1C0013FCB88FE663D3 /* AdaptiveThresold.m in Sources */,
+				2B8EE5C8EDBA70D8A181DA0673543C66 /* AIAlgorithmDetector.m in Sources */,
+				094D03AF2F6C3FAD20EE0F5209CDDDF7 /* AIAudioUtils.c in Sources */,
+				095CDBEABAC8BACE346F948563EB33E5 /* AIDataService.m in Sources */,
+				AB3376A7D9F8CA8EED8CD547158F407A /* AIDatePeriodFormatter.m in Sources */,
+				C46305C3E7CB5DC4A0DDE382879483BF /* AIDefaultConfiguration.m in Sources */,
+				54C1DCDEC9EE31269022B29B87B246D8 /* AIEllipseView.m in Sources */,
+				FBC03C21C0EB33CF699A1572AFF32103 /* AIMeterTable.m in Sources */,
+				5100B7D02656826780A4AB04D9BD31BF /* AIOriginalRequest.m in Sources */,
+				23C901CC3B61C72690D9014E4BBAF9EC /* AIProgressView.m in Sources */,
+				1F3326FF02B7D23E2F9A501782794477 /* AIQueryRequest+Private.m in Sources */,
+				FFED343E518D4279F4EBAC2CC9B2D033 /* AIQueryRequest.m in Sources */,
+				31B6476EAB6BD8E4B039F6B60F05EE77 /* AIRecordDetector.m in Sources */,
+				3440C8175FE16DF61A9A226C8B237A4A /* AIRequest+AIMappedResponse.m in Sources */,
+				8A1696822FE6FB2A954FED70D17FB61A /* AIRequest.m in Sources */,
+				87E15B8939027760F7CAFFAE9DD1DDAD /* AIRequestContext.m in Sources */,
+				7EC1A784DEB839DF816CCCFE00A4BFF5 /* AIRequestEntity.m in Sources */,
+				95C660FD9A466A2276759F416F0D878A /* AIRequestEntry.m in Sources */,
+				3CFEB9210FE7D1EEDF6087EBC0BCE795 /* AIResponse.m in Sources */,
+				16C0D128A01B2F0B6F36CD36D783F7D4 /* AIResponseConstants.m in Sources */,
+				369EBEC93818E807F790205FD9A36454 /* AIResponseContext.m in Sources */,
+				9AC2F021834D4E13F9E0D1516FE3197A /* AIResponseFulfillment.m in Sources */,
+				198729E887EABC61E4D3C5C864A9DF31 /* AIResponseMetadata.m in Sources */,
+				B0320AEB2F47B72F29E6099C2323D134 /* AIResponseParameter.m in Sources */,
+				EB348E81B62B90DE764B0074A34D28F7 /* AIResponseParameterConstants.m in Sources */,
+				5FE8D674906BFEF8FDEE123C97FBA604 /* AIResponseResult.m in Sources */,
+				1CC55A4FD4E4D9C27BEBBD01E0DCADCC /* AIResponseStatus.m in Sources */,
+				F92E9EDA1BF8EA0E029A131C52F302FA /* AISessionIdentifierStorage.m in Sources */,
+				5F7D36CA62B0021899C6C157CC820F32 /* AISoundRecorder.m in Sources */,
+				882A89BE6C83C669372699A9E459C25F /* AISoundRecorderConstants.m in Sources */,
+				73253AE492A52933B9FC99AC77166F52 /* AIStreamBuffer.m in Sources */,
+				D9AAF346035F24FC675643E41E1E86D3 /* AITextRequest.m in Sources */,
+				FB100A2AE4398BDECD637FC508A10715 /* AIVoiceContainerView.m in Sources */,
+				923FA9B063AE8322BD193A38FB62C7B7 /* AIVoiceLevelView.m in Sources */,
+				8135749F637AA0FEEAB85E4A17C93DC1 /* AIVoiceRequest.m in Sources */,
+				B9B09D92619C34518D2CCE02AF166412 /* AIVoiceRequestButton.m in Sources */,
+				5B17551FFB4508FA686C01931DD590F5 /* ApiAI-dummy.m in Sources */,
+				CD7752013DBE12C966DE876DF5BFB4EA /* ApiAI.m in Sources */,
+				BE68A24D8A475C2B111A725821DA3E0E /* EnergyAndZeroCross.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AEF4CBDAB6372F7161FE97661FE22A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190305471F2FDC9FFA8E96A33D87AEB0 /* NOCClient.m in Sources */,
+				3D790C6CA977FAA0C7B752D1D9D172F3 /* NOCDispatcher.m in Sources */,
+				89593A8A72E2823CB2D531004556616C /* NOCGame.m in Sources */,
+				7AEA9BF52E7E4E8FACFF4C3082530521 /* NOCProtoKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88116BE9AAE8F8F098D948190EE5761B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEACD0ED034DA343984A05DC75645459 /* Pods-MoodBot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4BAF37791D6758B6D5A9CA88785C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30056BCD54BA7C364D4B19188DB095AE /* NSAttributedString+YYText.m in Sources */,
+				66303AA0D609B88FDE8AC8D657B251FC /* NSParagraphStyle+YYText.m in Sources */,
+				4292C135F00E79FD169AD6B9B62994FA /* UIPasteboard+YYText.m in Sources */,
+				3B892F933FDB854386A86A5C30A66689 /* UIView+YYText.m in Sources */,
+				DC82FCB174D7E6AF2097781B12EBF06E /* YYLabel.m in Sources */,
+				1A9E3E59C9C63FCD62762DE6CAE587EF /* YYText-dummy.m in Sources */,
+				254B1A8BAE8FF75FF30AC7AC0E9C6AD0 /* YYTextArchiver.m in Sources */,
+				1E26B1D7A7874A60B46FB3C6C4C12BDC /* YYTextAsyncLayer.m in Sources */,
+				F15657E038C8648C9882B2927409BB1C /* YYTextAttribute.m in Sources */,
+				E9B9CA59EE1414FFC224BDA8D29FEE50 /* YYTextContainerView.m in Sources */,
+				A30D77F300A87DE47D7751D14957AC7D /* YYTextDebugOption.m in Sources */,
+				753B28C4F69D7CD277D158CF643A3454 /* YYTextEffectWindow.m in Sources */,
+				0EBB86C9F3675E2BE8BC4990FE78975D /* YYTextInput.m in Sources */,
+				B734D6F6F5637ABE7C0F0AE86923D753 /* YYTextKeyboardManager.m in Sources */,
+				DBC0169ACFB04A505AF2F718AD808568 /* YYTextLayout.m in Sources */,
+				0A0750DD90CD1CB418B57A97203CC2E6 /* YYTextLine.m in Sources */,
+				85C24D4A4891CB1946B0BA31F02A51FB /* YYTextMagnifier.m in Sources */,
+				D1A6D0A83E3F914C00921767AB87AFA4 /* YYTextParser.m in Sources */,
+				F9710AF63DB22BD987E8005D90800580 /* YYTextRubyAnnotation.m in Sources */,
+				00576DE07824DEAF536E5D131023EE98 /* YYTextRunDelegate.m in Sources */,
+				F5E613DC5542A41FCAACAC98A26F8C0B /* YYTextSelectionView.m in Sources */,
+				D3023B6FBB1578F9E3AADB28342E9D41 /* YYTextTransaction.m in Sources */,
+				F91379D50A033A9449512AD6A5A86CB6 /* YYTextUtilities.m in Sources */,
+				F44F6E99F9847F03631B08D957D6FD90 /* YYTextView.m in Sources */,
+				D1C94A21B6209D9B829A72F1DFD1C2F2 /* YYTextWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8E0446C3B3B52779E8DE373E495A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */,
+				897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1997F23A0C0C70C3A6F9888ED27BC0C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NOCProtoKit;
+			target = 8B3ED0211F7EECC173E919CC06059E3C /* NOCProtoKit */;
+			targetProxy = AD3E39FD3F493ACC5BFBA12D37CED16D /* PBXContainerItemProxy */;
+		};
+		27285D3368DB6613B23FA729727EFEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */;
+			targetProxy = 66AE82D40B05103A08F72DF8B1095CF6 /* PBXContainerItemProxy */;
+		};
+		3E0BCDE9D2BE97DF2CCF73A5B04A855C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYText;
+			target = 192115271F60B3DCE090C78C0C172E03 /* YYText */;
+			targetProxy = D6870B97824652E8B5FCDF0F6BC0EC93 /* PBXContainerItemProxy */;
+		};
+		AAA608DE708C7C390CD6F4D159BC4D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NoChat;
+			target = 64FE122BD3CE0F1BC99699025AE3D333 /* NoChat */;
+			targetProxy = C01474424392C9C2EAF46C4F0FCA8FCA /* PBXContainerItemProxy */;
+		};
+		ECC092400E447B3360133EA8C1ADFA4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ApiAI;
+			target = ED9A09C7302670F7CD46B07B0636481A /* ApiAI */;
+			targetProxy = 0A9DEA7370D00C4AB08638A9F1F10834 /* PBXContainerItemProxy */;
+		};
+		F3071BFBD971E3255E8FFF3015BA2E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HPGrowingTextView;
+			target = 617D61FCB3A3DFF8E75036B33D8E9BA1 /* HPGrowingTextView */;
+			targetProxy = 95CAE8A77DD74BD9A649B052D81D37AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0422ABFDE4563D97C03D4C45A28F0C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D981F2205507354DB2A5C3CF92056AF /* Pods-MoodBot.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoodBot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoodBot/Pods-MoodBot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MoodBot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		06BFDAFAD40566C1E7358557E1069C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEBAD454220366BF37BBB49C75F5723 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		214F263F9DE2392305BADD1CCE2186B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B30EC42BDB30EB53B36E7AF3FDEEF21 /* NoChat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NoChat/NoChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NoChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NoChat/NoChat.modulemap";
+				PRODUCT_NAME = NoChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31856385EF132850472061D684E3EFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F529897C7F27F9B01B5585233F27000 /* HPGrowingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HPGrowingTextView/HPGrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPGrowingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HPGrowingTextView/HPGrowingTextView.modulemap";
+				PRODUCT_NAME = HPGrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		334B251BB2F9407E12FDFE2385ADBA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51748E00EF227F0FB65D4142D1FEB2D /* NOCProtoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NOCProtoKit/NOCProtoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NOCProtoKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NOCProtoKit/NOCProtoKit.modulemap";
+				PRODUCT_NAME = NOCProtoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3786DC0BDDAECAB1BA751B398BBC9E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526F9E22068094BC11CCCDBB2F575833 /* YYText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
+				PRODUCT_NAME = YYText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C28F49855EC11B44F904A1C18D7FA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC2C9957DA5A6DF45336D0148E370BA /* ApiAI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ApiAI/ApiAI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ApiAI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ApiAI/ApiAI.modulemap";
+				PRODUCT_NAME = ApiAI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71839E61FA59B9799CBC461D71262336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526F9E22068094BC11CCCDBB2F575833 /* YYText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
+				PRODUCT_NAME = YYText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D5420026387D13661FB1935655D3024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC2C9957DA5A6DF45336D0148E370BA /* ApiAI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ApiAI/ApiAI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ApiAI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ApiAI/ApiAI.modulemap";
+				PRODUCT_NAME = ApiAI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		973B1618506F1B069AAF7632BF5FC9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEBAD454220366BF37BBB49C75F5723 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A05730DDC5DB82E3498E46BC69A77205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7193DB1BE53AED3D898573BFA48293A /* Pods-MoodBot.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoodBot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoodBot/Pods-MoodBot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MoodBot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BF789CC22F9E1718984C763E96B4DC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51748E00EF227F0FB65D4142D1FEB2D /* NOCProtoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NOCProtoKit/NOCProtoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NOCProtoKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NOCProtoKit/NOCProtoKit.modulemap";
+				PRODUCT_NAME = NOCProtoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F77CB0DECD45B59E3F614D0F933A1530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F529897C7F27F9B01B5585233F27000 /* HPGrowingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HPGrowingTextView/HPGrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPGrowingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HPGrowingTextView/HPGrowingTextView.modulemap";
+				PRODUCT_NAME = HPGrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F83CA7CF1A2F6763DC04F4E506E25024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B30EC42BDB30EB53B36E7AF3FDEEF21 /* NoChat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NoChat/NoChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NoChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NoChat/NoChat.modulemap";
+				PRODUCT_NAME = NoChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		117CBE75FC5E669ADF6C93FFF20152EA /* Build configuration list for PBXNativeTarget "NOCProtoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334B251BB2F9407E12FDFE2385ADBA81 /* Debug */,
+				BF789CC22F9E1718984C763E96B4DC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C55FB86A58B293954704A5B95104E79 /* Build configuration list for PBXNativeTarget "ApiAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C28F49855EC11B44F904A1C18D7FA00 /* Debug */,
+				7D5420026387D13661FB1935655D3024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B3766C37805A6AF7701B2B984A2998 /* Build configuration list for PBXNativeTarget "NoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214F263F9DE2392305BADD1CCE2186B0 /* Debug */,
+				F83CA7CF1A2F6763DC04F4E506E25024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32D32D5E0836685FDCE951D6BF2D059 /* Build configuration list for PBXNativeTarget "HPGrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77CB0DECD45B59E3F614D0F933A1530 /* Debug */,
+				31856385EF132850472061D684E3EFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82CB82F480B06F0D856617FCA325FBC /* Build configuration list for PBXNativeTarget "Pods-MoodBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05730DDC5DB82E3498E46BC69A77205 /* Debug */,
+				0422ABFDE4563D97C03D4C45A28F0C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88F54AEBA8322D01E6A896F53E35C55 /* Build configuration list for PBXNativeTarget "YYText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71839E61FA59B9799CBC461D71262336 /* Debug */,
+				3786DC0BDDAECAB1BA751B398BBC9E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BFDAFAD40566C1E7358557E1069C82 /* Debug */,
+				973B1618506F1B069AAF7632BF5FC9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

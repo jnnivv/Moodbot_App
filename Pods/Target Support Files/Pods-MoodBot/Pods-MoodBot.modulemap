@@ -1,0 +1,6 @@
+framework module Pods_MoodBot {
+  umbrella header "Pods-MoodBot-umbrella.h"
+
+  export *
+  module * { export * }
+}
